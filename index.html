@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zephware</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap">
+  <script>
+  if (window.location.href === "https://storage.googleapis.com/zephware/index.html") { window.location.replace("https://zephware.storage.googleapis.com/index.html"); }
+  </script>
+  <style rel="stylesheet" crossorigin>:root{--color1:#01aefd;--color2:#015afd;--wave1:#63baff;--wave2:#3ea7f7;--wave3:#298ee0;--bg:#234}::selection{color:#fff;background-color:salmon}*{font-family:Fredoka,sans-serif!important}body{background-color:var(--bg);flex-direction:column;justify-content:flex-end;height:100vh;max-height:100vh;margin:0;padding:0;display:flex;overflow:hidden}.parallax>use{animation:12s linear infinite move-forever}.parallax>use:first-child{fill:var(--wave1);animation-delay:-2s}.parallax>use:nth-child(2){fill:var(--wave2);animation-duration:5s;animation-delay:-2s}.parallax>use:nth-child(3){fill:var(--wave3);animation-duration:3s;animation-delay:-4s}@keyframes move-forever{0%{transform:translate(-90px)}to{transform:translate(85px)}}.editorial{z-index:10;width:100%;height:10em;max-height:100vh;margin:0;display:block;position:fixed;bottom:10vh;left:0}.cover-box{background-color:var(--wave3);z-index:5;height:11vh;position:fixed;bottom:0;left:0;right:0}.header{text-align:center;background:linear-gradient(to bottom, var(--color1), var(--color2));-webkit-text-fill-color:transparent;color:#0000;-webkit-user-select:none;z-index:100;-webkit-background-clip:text;width:100%;padding:.25em 0;font-family:Fredoka,sans-serif;font-size:4em;font-weight:700;position:fixed;top:4.25em}.description{text-align:center;color:#bbb;-webkit-user-select:none;z-index:100;width:100%;font-family:Fredoka,sans-serif;font-size:1.2em;font-style:italic;font-weight:400;position:fixed;top:19.5em;left:0}.input-area{color:#000;z-index:100;align-items:center;gap:.5em;display:flex;position:fixed;top:26em;left:50%;transform:translate(-50%)}.input-area .label-text{color:#ddd;-webkit-user-select:none;white-space:nowrap;font-family:Fredoka,sans-serif;font-size:1.4em;font-weight:500}.input-area select{color:var(--color1);cursor:pointer;background-color:#2a2a2a;border:none;border-radius:5px;outline:none;width:200px;padding:.3em .6em;font-family:Fredoka,sans-serif;font-size:1.2em;font-weight:500}.input-area button{background:linear-gradient(to bottom, var(--color1), var(--color2));color:#fff;cursor:pointer;border:none;border-radius:5px;padding:.4em 1em;font-family:Fredoka,sans-serif;font-size:1.2em;font-weight:700;transition:none}#settings-button{z-index:100;background:0 0;border:none;padding:.4em .8em;font-size:1.1em;position:fixed;bottom:10px;right:10px}@media (width<=50em){.description{font-size:3vw}.input-area .label-text{font-size:5vw}.header{font-size:6vw}.input-area select,.input-area button{width:auto;font-size:3.5vw}}#overlay,#news-overlay,#settings-overlay,#instructions-overlay{z-index:99999;background:#000000bf;justify-content:center;align-items:center;width:100vw;height:100vh;font-family:Fredoka,sans-serif;display:flex;position:fixed;top:0;left:0}#overlay-box,.overlay-panel,.settings-panel,.news-panel{text-align:center;background:#111111f2;border:1px solid #ffffff1a;border-radius:16px;width:90%;max-width:520px;padding:32px;font-family:Fredoka,sans-serif;position:relative;box-shadow:0 8px 32px #0006}.news-panel{border-radius:24px;flex-direction:column;width:600px;max-width:90vw;height:520px;padding:32px 24px 24px;display:flex;overflow:hidden}.news-content{scrollbar-width:none;flex-direction:column;flex:1;align-items:center;width:100%;display:flex;overflow-y:auto}.news-content::-webkit-scrollbar{display:none}.nav-row{justify-content:center;align-items:center;width:100%;margin-bottom:12px;display:flex}.arrow{cursor:pointer;-webkit-user-select:none;user-select:none;color:var(--color1);font-size:2em}.left-arrow{margin-right:8px}.right-arrow{margin-left:8px}.news-title{color:var(--color1);font-size:2em;font-weight:700}.page-desc{color:#aaa;min-height:1.2em;margin:2px 0 10px;font-size:1.05em}.img-wrap{background:#2828282e;border-radius:32px;justify-content:center;align-items:center;width:100%;height:auto;margin:0 0 18px;display:flex;overflow:hidden;box-shadow:0 4px 24px #0000002e}.news-img{object-fit:contain;border-radius:32px;width:100%;height:auto}.changes-list{text-align:left;color:#fff;width:100%;max-height:130px;margin:18px 0 0;padding:0;font-size:1.18em;list-style:none;overflow:visible}.changes-list li{flex-direction:column;gap:2px;margin-bottom:10px;display:flex}.changes-list .main-text{color:#fff;font-size:1.08em;font-weight:500}.changes-list .desc-text{color:#aaa;margin-left:18px;font-size:.95em}.close-btn{color:#fff;cursor:pointer;z-index:2;background:#e74c3c;border:none;border-radius:8px;width:36px;height:36px;font-size:20px;font-weight:700;position:absolute;top:18px;right:24px}#overlay-box h1,.overlay-panel h1,.settings-panel h1{color:var(--color1);margin-bottom:16px;font-size:24px}#instructions-list{text-align:center;color:#fff;margin:0 0 24px;padding-left:0;font-size:16px;list-style-position:inside}#instructions-list li{margin:8px 0}.button-container{justify-content:center;gap:12px;margin-top:24px;display:flex}#overlay-box button,.overlay-panel button,.settings-panel button{background-color:var(--color1);color:#fff;cursor:pointer;border:none;border-radius:10px;min-width:80px;padding:10px 20px;font-family:Fredoka,sans-serif;font-size:16px}#settings-close,#instructions-close{background-color:#e74c3c!important}.changes-list::-webkit-scrollbar{width:6px}.changes-list::-webkit-scrollbar-thumb{background:var(--color1);border-radius:6px}.hide-scrollbar::-webkit-scrollbar{display:none}.hide-scrollbar{-ms-overflow-style:none;scrollbar-width:none}.settings-section{text-align:left;margin:20px 0}.settings-section label{color:#ddd;margin-bottom:8px;font-size:1.1em;display:block}.settings-section select{width:100%;color:var(--color1);cursor:pointer;background-color:#2a2a2a;border:none;border-radius:8px;padding:10px;font-size:1em}.theme-preview{grid-template-columns:repeat(auto-fill,minmax(90px,1fr));gap:12px;margin-top:10px;display:grid}.theme-option{cursor:pointer;will-change:transform, opacity;text-align:center;background:#111;border:2px solid #ffffff1f;border-radius:12px;transition:transform .15s ease-out,opacity .15s ease-out;overflow:hidden}.theme-option img{object-fit:cover;width:100%;height:60px;display:block}.theme-option span{color:#fff;text-transform:capitalize;-webkit-backdrop-filter:blur(6px);background:linear-gradient(#00000040,#000000a6);border-radius:0 0 10px 10px;padding:4px 6px;font-size:11px;display:block}.theme-option:hover{opacity:.9;transform:scale(1.05)}.theme-option.selected{border-color:#fff}#suggestion-teaser-overlay,#suggestion-form-overlay{z-index:99999;background:#000000bf;justify-content:center;align-items:center;width:100vw;height:100vh;font-family:Fredoka,sans-serif;display:flex;position:fixed;top:0;left:0}.suggestion-teaser-panel{text-align:center;background:#111111f7;border:1px solid #ffffff1a;border-radius:20px;width:90%;max-width:380px;padding:40px 36px 32px;animation:.25s ease-out teaser-in;position:relative;box-shadow:0 8px 40px #00000080}@keyframes teaser-in{0%{opacity:0;transform:translateY(18px)scale(.97)}to{opacity:1;transform:translateY(0)scale(1)}}.teaser-icon{margin-bottom:10px;font-size:2.6em;line-height:1}.teaser-title{color:var(--color1);margin:0 0 10px;font-size:1.7em;font-weight:700}.teaser-body{color:#bbb;margin:0 0 24px;font-size:1em;line-height:1.5}#suggestion-teaser-skip{background-color:#444!important}.suggestion-form-panel{text-align:center;background:#111111f7;border:1px solid #ffffff1a;border-radius:20px;width:90%;max-width:460px;padding:36px 32px 28px;animation:.22s ease-out teaser-in;position:relative;box-shadow:0 8px 40px #00000080}.form-title{color:var(--color1);margin:0 0 20px;font-size:1.7em;font-weight:700}.form-group{text-align:left;margin-bottom:16px;position:relative}.form-label{color:#ddd;margin-bottom:6px;font-size:1em;display:block}.form-select{width:100%;color:var(--color1);cursor:pointer;background-color:#2a2a2a;border:none;border-radius:8px;outline:none;padding:10px 12px;font-family:Fredoka,sans-serif;font-size:1em}.form-textarea{color:#fff;resize:none;box-sizing:border-box;background-color:#2a2a2a;border:none;border-radius:8px;outline:none;width:100%;height:110px;padding:10px 12px;font-family:Fredoka,sans-serif;font-size:1em}.form-textarea::placeholder{color:#666}.char-count{color:#555;pointer-events:none;font-size:.78em;position:absolute;bottom:8px;right:10px}#suggestion-form-cancel{background-color:#444!important}.suggestion-feedback{border-radius:8px;margin-top:14px;padding:10px 14px;font-size:1em}.suggestion-feedback.success{color:#4dffb0;background:#00c8641f;border:1px solid #00c86440}.suggestion-feedback.error{color:#ff7070;background:#ff3c3c1f;border:1px solid #ff3c3c40}.suggestion-form-panel button,.suggestion-teaser-panel button{background-color:var(--color1);color:#fff;cursor:pointer;border:none;border-radius:10px;min-width:80px;padding:10px 20px;font-family:Fredoka,sans-serif;font-size:16px}
+/*$vite$:1*/</style>
+</head>
+<body>
+  <svg class="editorial" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none">
+    <defs>
+      <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"/>
+    </defs>
+    <g class="parallax">
+      <use xlink:href="#gentle-wave" x="50" y="0" fill=""></use>
+      <use xlink:href="#gentle-wave" x="50" y="3" fill=""></use>
+      <use xlink:href="#gentle-wave" x="50" y="6" fill=""></use>
+    </g>
+  </svg>
+
+  <div class="cover-box"></div>
+  
+  <div class="content"></div>
+  
+  <div class="header">Zephware</div>
+  
+  <div class="description">The Ultimate School-Tool</div>
+  
+  <div class="input-area">
+    <div class="label-text" for="selector">I wish to access</div>
+    <select id="selector" title="">
+      <option value="games">Games</option>
+      <option value="library">Library</option>
+      <option value="music">Music</option>
+      <option value="messages">Messages</option>
+      <option value="connect">Connect</option>
+      <option value="webtools">WebTools</option>
+    </select>
+    <button id="go-button">Go</button>
+  </div>
+
+  <button id="settings-button" title="Settings"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" color="#fff" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-settings-icon lucide-settings"><path d="M9.671 4.136a2.34 2.34 0 0 1 4.659 0 2.34 2.34 0 0 0 3.319 1.915 2.34 2.34 0 0 1 2.33 4.033 2.34 2.34 0 0 0 0 3.831 2.34 2.34 0 0 1-2.33 4.033 2.34 2.34 0 0 0-3.319 1.915 2.34 2.34 0 0 1-4.659 0 2.34 2.34 0 0 0-3.32-1.915 2.34 2.34 0 0 1-2.33-4.033 2.34 2.34 0 0 0 0-3.831A2.34 2.34 0 0 1 6.35 6.051a2.34 2.34 0 0 0 3.319-1.915"/><circle cx="12" cy="12" r="3"/></svg></button>
+
+  <!-- News Overlay -->
+  <div id="news-overlay">
+    <div class="news-panel">
+      <button id="news-close" class="close-btn">×</button>
+      <div class="news-content">
+        <div class="nav-row">
+          <span class="arrow left-arrow" title="Previous">&lt;</span>
+          <span class="news-title"></span>
+          <span class="arrow right-arrow" title="Next">&gt;</span>
+        </div>
+        <div class="page-desc"></div>
+        <div class="img-wrap">
+          <img class="news-img" draggable="false" alt="">
+        </div>
+        <ul class="changes-list"></ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Settings Overlay -->
+  <div id="settings-overlay" style="display: none;">
+    <div class="settings-panel">
+      <h1>Settings</h1>
+      <div class="settings-section">
+        <label>Default Starting Option:</label>
+        <select id="default-select">
+          <option value="games">Games</option>
+          <option value="library">Library</option>
+          <option value="music">Music</option>
+          <option value="connect">Connect</option>
+          <option value="webtools">WebTools</option>
+        </select>
+      </div>
+      <div class="settings-section">
+        <label>Theme:</label>
+        <div class="theme-preview" id="theme-preview"></div>
+      </div>
+      <div class="button-container">
+        <button id="settings-save">Save</button>
+        <button id="settings-close">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Instructions Overlay -->
+  <div id="instructions-overlay" style="display: none;">
+    <div id="overlay-box">
+      <h1>Instructions</h1>
+      <ol id="instructions-list">
+        <li>Create a bookmark</li>
+        <li>Click the "Copy" button below & Copy</li>
+        <li>Set the code as the url for the bookmark</li>
+        <li>Hit save</li>
+        <li>Try it out!</li>
+      </ol>
+      <div class="button-container">
+        <button id="copy-btn">Copy</button>
+        <button id="instructions-close">Close</button>
+      </div>  
+    </div>
+  </div>
+
+  <!-- Suggestion Teaser Overlay -->
+  <div id="suggestion-teaser-overlay" style="display: none;">
+    <div class="suggestion-teaser-panel">
+      <div class="teaser-icon">💡</div>
+      <h2 class="teaser-title">Got a suggestion?</h2>
+      <p class="teaser-body">I'm running out of ideas on what to make, what to add, and what to do. please make some suggestions and if it's possible I'll try my best to do it. I'm not adding inappropriate content or unreleased stuff like the avatar movie.</p>
+      <div class="button-container">
+        <button id="suggestion-teaser-ok">Sure!</button>
+        <button id="suggestion-teaser-skip">Maybe later</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Suggestion Form Overlay -->
+  <div id="suggestion-form-overlay" style="display: none;">
+    <div class="suggestion-form-panel">
+      <button id="suggestion-form-close" class="close-btn">×</button>
+      <h2 class="form-title">Send Feedback</h2>
+      <div class="form-group">
+        <label class="form-label">Type</label>
+        <select id="suggestion-type" class="form-select">
+          <option value="Suggestion">💡 Suggestion</option>
+          <option value="Bug Fix">🐛 Bug Fix</option>
+          <option value="Game Request">🎮 Game Request</option>
+          <option value="Other">✉️ Other</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Details</label>
+        <textarea id="suggestion-text" class="form-textarea" placeholder="Describe your idea or issue..." maxlength="1000"></textarea>
+        <span class="char-count"><span id="char-num">0</span>/1000</span>
+      </div>
+      <div class="button-container">
+        <button id="suggestion-submit">Send</button>
+        <button id="suggestion-form-cancel">Cancel</button>
+      </div>
+      <div id="suggestion-feedback" class="suggestion-feedback" style="display:none;"></div>
+    </div>
+  </div>
+
+  <pre id="to-copy" style="position: fixed; opacity: 0; pointer-events: none; user-select: text; z-index: -1;"></pre>
+
+  <script src="main.js"></script>
+  <!-- GAS -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XS4ZS93VYT"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-XS4ZS93VYT');
+  </script>
+</body>
+</html>
