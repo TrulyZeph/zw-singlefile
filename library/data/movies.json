@@ -1,0 +1,439 @@
+[
+  {
+    "name": "A Minecraft Movie",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Kids/MinecraftMovie.mp4",
+    "cover": "../assets/covers/movies/MinecraftMovie.png",
+    "tags": ["Kids", "Adventure"]
+  },
+  {
+    "name": "Aquaman",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/DC/Aquaman.mp4",
+    "cover": "../assets/covers/movies/Aquaman.png",
+    "tags": ["DC", "Action"]
+  },
+  {
+    "name": "Joker",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/DC/Joker.mp4",
+    "cover": "../assets/covers/movies/Joker.png",
+    "tags": ["DC", "Action"]
+  },
+  {
+    "name": "Justice League",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/DC/JusticeLeague.mp4",
+    "cover": "../assets/covers/movies/JusticeLeague.png",
+    "tags": ["DC", "Action"]
+  },
+  {
+    "name": "Zack Synder's Justice League",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/DC/JusticeLeagueAlt.mp4",
+    "cover": "../assets/covers/movies/JusticeLeagueAlt.png",
+    "tags": ["DC", "Action"]
+  },
+  {
+    "name": "Man Of Steel",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/DC/ManofSteel.mp4",
+    "cover": "../assets/covers/movies/ManOfSteel.png",
+    "tags": ["DC", "Action"]
+  },
+  {
+    "name": "Shazam!",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/DC/Shazam.mp4",
+    "cover": "../assets/covers/movies/Shazam.png",
+    "tags": ["DC", "Action"]
+  },
+  {
+    "name": "Suicide Squad",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/DC/SuicideSquad.mp4",
+    "cover": "../assets/covers/movies/SuicideSquad.png",
+    "tags": ["DC", "Action"]
+  },
+  {
+    "name": "The Flash",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/DC/TheFlash.mp4",
+    "cover": "../assets/covers/movies/TheFlash.png",
+    "tags": ["DC", "Action"]
+  },
+  {
+    "name": "The Batman",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/DC/TheBatman.mp4",
+    "cover": "../assets/covers/movies/TheBatman.png",
+    "tags": ["DC", "Action"]
+  },
+  {
+    "name": "The Dark Knight",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/DC/TheDarkKnight.mp4",
+    "cover": "../assets/covers/movies/TheDarkKnight.png",
+    "tags": ["DC", "Action"]
+  },
+  {
+    "name": "Wonder Woman",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/DC/WonderWoman.mp4",
+    "cover": "../assets/covers/movies/WonderWoman.png",
+    "tags": ["DC", "Action"]
+  },
+  {
+    "name": "Spiderman: Into the Spider-Verse",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Marvel/IntoTheSpiderVerse.mp4",
+    "cover": "../assets/covers/movies/IntoTheSpiderVerse.png",
+    "tags": ["Marvel", "Action"]
+  },
+  {
+    "name": "Spiderman: Across the Spider-Verse",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Marvel/AcrossTheSpiderVerse.mp4",
+    "cover": "../assets/covers/movies/AcrossTheSpiderVerse.png",
+    "tags": ["Marvel", "Action"]
+  },
+  {
+    "name": "Ant-Man",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Marvel/AntMan1.mp4",
+    "cover": "../assets/covers/movies/AntMan1.png",
+    "tags": ["Marvel", "Action"]
+  },
+  {
+    "name": "Ant-Man and the Wasp",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Marvel/AntMan2.mp4",
+    "cover": "../assets/covers/movies/AntMan2.png",
+    "tags": ["Marvel", "Action"]
+  },
+  {
+    "name": "Ant-Man and the Wasp: Quantumania",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Marvel/AntMan3.mp4",
+    "cover": "../assets/covers/movies/AntMan3.png",
+    "tags": ["Marvel", "Action"]
+  },
+  {
+    "name": "Avengers: Infinity War",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Marvel/AvengersInfinityWar.mp4",
+    "cover": "../assets/covers/movies/AvengersInfinityWar.png",
+    "tags": ["Marvel", "Action"]
+  },
+  {
+    "name": "Avengers: Endgame",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Marvel/AvengersEndgame.mp4",
+    "cover": "../assets/covers/movies/AvengersEndgame.png",
+    "tags": ["Marvel", "Action"]
+  },
+  {
+    "name": "Black Panther",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Marvel/BlackPanther.mp4",
+    "cover": "../assets/covers/movies/BlackPanther.png",
+    "tags": ["Marvel", "Action"]
+  },
+  {
+    "name": "Black Panther: Wakanda Forever",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Marvel/WakandaForever.mp4",
+    "cover": "../assets/covers/movies/WakandaForever.png",
+    "tags": ["Marvel", "Action"]
+  },
+  {
+    "name": "Captain America: The First Avenger",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Marvel/CaptainAmerica1.mp4",
+    "cover": "../assets/covers/movies/CaptainAmerica1.png",
+    "tags": ["Marvel", "Action"]
+  },
+  {
+    "name": "Captain America: The Winter Soldier",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Marvel/CaptainAmerica2.mp4",
+    "cover": "../assets/covers/movies/CaptainAmerica2.png",
+    "tags": ["Marvel", "Action"]
+  },
+  {
+    "name": "Captain America: Civil War",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Marvel/CaptainAmerica3.mp4",
+    "cover": "../assets/covers/movies/CaptainAmerica3.png",
+    "tags": ["Marvel", "Action"]
+  },
+  {
+    "name": "Doctor Strange",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Marvel/DoctorStrange.mp4",
+    "cover": "../assets/covers/movies/DoctorStrange.png",
+    "tags": ["Marvel", "Action"]
+  },
+  {
+    "name": "Guardians of the Galaxy",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Marvel/GuardiansOfTheGalaxy1.mp4",
+    "cover": "../assets/covers/movies/GuardiansOfTheGalaxy1.png",
+    "tags": ["Marvel", "Action"]
+  },
+  {
+    "name": "Guardians of the Galaxy Vol. 2",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Marvel/GuardiansOfTheGalaxy2.mp4",
+    "cover": "../assets/covers/movies/GuardiansOfTheGalaxy2.png",
+    "tags": ["Marvel", "Action"]
+  },
+  {
+    "name": "Guardians of the Galaxy Vol. 3",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Marvel/GuardiansOfTheGalaxy3.mp4",
+    "cover": "../assets/covers/movies/GuardiansOfTheGalaxy3.png",
+    "tags": ["Marvel", "Action"]
+  },
+  {
+    "name": "Iron Man",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Marvel/IronMan1.mp4",
+    "cover": "../assets/covers/movies/IronMan1.png",
+    "tags": ["Marvel", "Action"]
+  },
+  {
+    "name": "Iron Man 2",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Marvel/IronMan2.mp4",
+    "cover": "../assets/covers/movies/IronMan2.png",
+    "tags": ["Marvel", "Action"]
+  },
+  {
+    "name": "Iron Man 3",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Marvel/IronMan3.mp4",
+    "cover": "../assets/covers/movies/IronMan3.png",
+    "tags": ["Marvel", "Action"]
+  },
+  {
+    "name": "Spider-Man",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Marvel/Spiderman1.mp4",
+    "cover": "../assets/covers/movies/Spiderman1.png",
+    "tags": ["Marvel", "Action"]
+  },
+  {
+    "name": "Spider-Man 2",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Marvel/Spiderman2.mp4",
+    "cover": "../assets/covers/movies/Spiderman2.png",
+    "tags": ["Marvel", "Action"]
+  },
+  {
+    "name": "Spider-Man 3",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Marvel/Spiderman3.mp4",
+    "cover": "../assets/covers/movies/Spiderman3.png",
+    "tags": ["Marvel", "Action"]
+  },
+  {
+    "name": "Spider-Man: No Way Home",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Marvel/NoWayHome.mp4",
+    "cover": "../assets/covers/movies/NoWayHome.png",
+    "tags": ["Marvel", "Action"]
+  },
+  {
+    "name": "The Avengers",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Marvel/TheAvengers.mp4",
+    "cover": "../assets/covers/movies/TheAvengers.png",
+    "tags": ["Marvel", "Action"]
+  },
+    {
+    "name": "Thor: Ragnarok",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Marvel/ThorRagnarok.mp4",
+    "cover": "../assets/covers/movies/ThorRagnarok.png",
+    "tags": ["Marvel", "Action"]
+  },
+  {
+    "name": "Cars",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Disney/Cars1.mp4",
+    "cover": "../assets/covers/movies/Cars1.png",
+    "tags": ["Pixar", "Adventure"]
+  },
+  {
+    "name": "Cars 2",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Disney/Cars2.mp4",
+    "cover": "../assets/covers/movies/Cars2.png",
+    "tags": ["Pixar", "Adventure"]
+  },
+  {
+    "name": "Cars 3",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Disney/Cars3.mp4",
+    "cover": "../assets/covers/movies/Cars3.png",
+    "tags": ["Pixar", "Adventure"]
+  },
+  {
+    "name": "Aladdin",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Disney/Aladdin.mp4",
+    "cover": "../assets/covers/movies/Aladdin.png",
+    "tags": ["Disney", "Romance"]
+  },
+  {
+    "name": "Beauty And The Beast",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Disney/BeautyAndTheBeast.mp4",
+    "cover": "../assets/covers/movies/BeautyAndTheBeast.png",
+    "tags": ["Disney", "Romance"]
+  },
+  {
+    "name": "Cinderella",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Disney/Cinderella.mp4",
+    "cover": "../assets/covers/movies/Cinderella.png",
+    "tags": ["Disney", "Romance"]
+  },
+  {
+    "name": "Encanto",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Disney/Encanto.mp4",
+    "cover": "../assets/covers/movies/Encanto.png",
+    "tags": ["Disney", "Music"]
+  },
+  {
+    "name": "Frozen",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Disney/Frozen.mp4",
+    "cover": "../assets/covers/movies/Frozen.png",
+    "tags": ["Disney", "Adventure"]
+  },
+  {
+    "name": "Moana",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Disney/Moana.mp4",
+    "cover": "../assets/covers/movies/Moana.png",
+    "tags": ["Disney", "Adventure"]
+  },
+  {
+    "name": "Mulan",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Disney/Mulan.mp4",
+    "cover": "../assets/covers/movies/Mulan.png",
+    "tags": ["Disney", "Action"]
+  },
+  {
+    "name": "Tangled",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Disney/Tangled.mp4",
+    "cover": "../assets/covers/movies/Tangled.png",
+    "tags": ["Disney", "Adventure"]
+  },
+  {
+    "name": "The Lion King",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Disney/TheLionKing.mp4",
+    "cover": "../assets/covers/movies/TheLionKing.png",
+    "tags": ["Disney", "Adventure"]
+  },
+  {
+    "name": "The Little Mermaid",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Disney/TheLittleMermaid.mp4",
+    "cover": "../assets/covers/movies/TheLittleMermaid.png",
+    "tags": ["Disney", "Romance"]
+  },
+  {
+    "name": "Titanic",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Adults/Titanic.mp4",
+    "cover": "../assets/covers/movies/Titanic.png",
+    "tags": ["Romance", "Adult"]
+  },
+  {
+    "name": "Top Gun: Maverick",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Adults/TopGunMaverick.mp4",
+    "cover": "../assets/covers/movies/TopGunMaverick.png",
+    "tags": ["Action", "Adult"]
+  },
+  {
+    "name": "A Beautiful Mind",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Adults/ABeautifulMind.mp4",
+    "cover": "../assets/covers/movies/ABeautifulMind.png",
+    "tags": ["Romance", "Adult"]
+  },
+  {
+    "name": "The Wolf of Wall Street",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Adults/TheWolfofWallStreet.mp4",
+    "cover": "../assets/covers/movies/TheWolfofWallStreet.png",
+    "tags": ["Drama", "Adult"]
+  },
+  {
+    "name": "Oppenheimer",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Adults/Oppenheimer.mp4",
+    "cover": "../assets/covers/movies/Oppenheimer.png",
+    "tags": ["Drama", "Adult"]
+  },
+  {
+    "name": "Bohemian Rhapsody",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Adults/BohemianRhapsody.mp4",
+    "cover": "../assets/covers/movies/BohemianRhapsody.png",
+    "tags": ["Music", "Drama"]
+  },
+  {
+    "name": "The Social Network",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Adults/TheSocialNetwork.mp4",
+    "cover": "../assets/covers/movies/TheSocialNetwork.png",
+    "tags": ["Drama", "Adult"]
+  },
+  {
+    "name": "The Pursuit Of Happyness",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Adults/ThePursuitOfHappyness.mp4",
+    "cover": "../assets/covers/movies/ThePursuitOfHappyness.png",
+    "tags": ["Drama", "Adult"]
+  },
+  {
+    "name": "Forrest Gump",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Adults/ForrestGump.mp4",
+    "cover": "../assets/covers/movies/ForrestGump.png",
+    "tags": ["Comedy", "Adult"]
+  },
+  {
+    "name": "The Shawshank Redemption",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Adults/TheShawshankRedemption.mp4",
+    "cover": "../assets/covers/movies/TheShawshankRedemption.png",
+    "tags": ["Action", "Adult"]
+  },
+
+  {
+    "name": "Demon Slayer: Infinity Castle",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Anime/InfinityCastle.mp4",
+    "cover": "../assets/covers/movies/InfinityCastle.png",
+    "tags": ["Anime", "Action"]
+  },
+  {
+    "name": "Demon Slayer: Mugen Train",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Anime/MugenTrain.mp4",
+    "cover": "../assets/covers/movies/MugenTrain.png",
+    "tags": ["Anime", "Action"]
+  },
+  {
+    "name": "Chainsaw Man: Reze Arc",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Anime/Reze.mp4",
+    "dub": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Anime/Dub/RezeDub.mp4",
+    "cover": "../assets/covers/movies/Reze.png",
+    "tags": ["Anime", "Action"]
+  },
+  {
+    "name": "A Silent Voice",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Anime/SilentVoice.mp4",
+    "dub": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Anime/Dub/SilentVoice.mp4",
+    "cover": "../assets/covers/movies/SilentVoice.png",
+    "tags": ["Anime", "Romance"]
+  },
+  {
+    "name": "Akira",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Anime/Akira.mp4",
+    "cover": "../assets/covers/movies/Akira.png",
+    "tags": ["Anime", "Action"]
+  },
+  {
+    "name": "Howl's Moving Castle",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Anime/HowlsMovingCastle.mp4",
+    "cover": "../assets/covers/movies/MovingCastle.png",
+    "tags": ["Anime", "Chill"]
+  },
+  {
+    "name": "Spirited Away",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Anime/SpiritedAway.mp4",
+    "cover": "../assets/covers/movies/SpiritedAway.png",
+    "tags": ["Anime", "Chill"]
+  },
+  {
+    "name": "My Neighbor Totoro",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Anime/NeighborTotoro.mp4",
+    "cover": "../assets/covers/movies/NeighborTotoro.png",
+    "tags": ["Anime", "Chill"]
+  },
+  {
+    "name": "Your Name",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Anime/YourName.mp4",
+    "dub": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Anime/Dub/YourName.mp4",
+    "cover": "../assets/covers/movies/YourName.png",
+    "tags": ["Anime", "Romance"]
+  },
+  {
+    "name": "Princess Mononoke",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Anime/PrincessMononoke.mp4",
+    "cover": "../assets/covers/movies/PrincessMononoke.png",
+    "tags": ["Anime", "Action"]
+  },
+  {
+    "name": "The Boy and the Heron",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Anime/BoyHeron.mp4",
+    "cover": "../assets/covers/movies/BoyHeron.png",
+    "tags": ["Anime", "Chill"]
+  },
+  {
+    "name": "Weathering With You",
+    "url": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Anime/WeatheringWithYou.mp4",
+    "dub": "https://pub-d320f07561184cca9e1fb76c4e2a5d4c.r2.dev/Anime/Dub/WeatheringWithYou.mp4",
+    "cover": "../assets/covers/movies/WeatheringWithYou.png",
+    "tags": ["Anime", "Romance"]
+  }
+]

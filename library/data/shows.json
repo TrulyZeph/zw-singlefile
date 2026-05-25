@@ -1,0 +1,1498 @@
+[
+  {
+    "name": "The Boondocks",
+    "tags": ["Comedy"],
+    "cover": "../assets/covers/shows/TheBoondocks.png",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": 15,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/The%20Boondocks/Season%201/"
+      },
+      {
+        "season": 2,
+        "episodes": 15,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/The%20Boondocks/Season%202/"
+      },
+      {
+        "season": 3,
+        "episodes": 15,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/The%20Boondocks/Season%203/"
+      },
+      {
+        "season": 4,
+        "episodes": 10,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/The%20Boondocks/Season%204/"
+      }
+    ]
+  },
+  {
+    "name": "Jojo's Bizzare Adventure",
+    "tags": ["Action", "Popular"],
+    "cover": "../assets/covers/shows/JJBA.png",
+    "seasons": [
+      {
+        "season": "Part 5: Golden Wind",
+        "episodes": 39,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/JJBA/Golden%20Wind/"
+      },
+      {
+        "season": "Part 6: Stone Ocean",
+        "episodes": 38,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/JJBA/Stone%20Ocean/"
+      },
+      {
+        "season": "Part 7: Steel Ball Run",
+        "episodes": 1,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/JJBA/Steel%20Ball%20Run/"
+      }
+    ]
+  },
+  {
+    "name": "Oshi No Ko",
+    "tags": ["Popular", "Psychological", "Peak"],
+    "cover": "../assets/covers/shows/OshiNoKo.png",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": 11,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Oshi%20No%20Ko/Season%201/"
+      },
+      {
+        "season": 2,
+        "episodes": 13,
+        "continue": true,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Oshi%20No%20Ko/Season%202/"
+      },
+      {
+        "season": 3,
+        "episodes": 8,
+        "continue": true,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Oshi%20No%20Ko/Season%203/"
+      }
+    ]
+  },
+  {
+    "name": "Code Geass: Lelouch of the Rebellion",
+    "tags": ["Action", "Popular"],
+    "cover": "../assets/covers/shows/CodeGeass.png",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": 25,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Code%20Geass/Season%201/"
+      },
+      {
+        "season": 2,
+        "episodes": 25,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Code%20Geass/Season%202/"
+      }
+    ]
+  },
+  {
+    "name": "Mushoku Tensei",
+    "tags": ["Action", "Popular", "Peak"],
+    "cover": "../assets/covers/shows/MushokuTensei.png",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": 23,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Mushoku%20Tensei/Season%201/"
+      },
+      {
+        "season": 2,
+        "episodes": 24,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Mushoku%20Tensei/Season%202/"
+      }
+    ]
+  },
+  {
+    "name": "Blue Lock",
+    "tags": ["Action", "Popular", "Sports"],
+    "cover": "../assets/covers/shows/BlueLock.png",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": 24,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Blue%20Lock/Season%201/"
+      },
+      {
+        "season": 2,
+        "episodes": 14,
+        "dub": true,
+        "continue": true,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Blue%20Lock/Season%202/"
+      }
+    ]
+  },
+  {
+    "name": "Voltron: Legendary Defenders",
+    "tags": ["Action", "Popular"],
+    "cover": "../assets/covers/shows/Voltron.png",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": 11,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Voltron/Season%201/"
+      },
+      {
+        "season": 2,
+        "episodes": 12,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Voltron/Season%202/"
+      },
+      {
+        "season": 3,
+        "episodes": 7,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Voltron/Season%203/"
+      },
+      {
+        "season": 4,
+        "episodes": 6,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Voltron/Season%204/"
+      },
+      {
+        "season": 5,
+        "episodes": 6,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Voltron/Season%205/"
+      },
+      {
+        "season": 6,
+        "episodes": 6,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Voltron/Season%206/"
+      },
+      {
+        "season": 7,
+        "episodes": 13,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Voltron/Season%207/"
+      },
+      {
+        "season": 8,
+        "episodes": 13,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Voltron/Season%208/"
+      }
+    ]
+  },
+  {
+    "name": "Fairy Tail",
+    "tags": ["Action", "Popular"],
+    "cover": "../assets/covers/shows/FairyTail.png",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": 328,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Fairy%20Tail/"
+      }
+    ]
+  },
+  {
+    "name": "Demon Slayer",
+    "tags": ["Action", "Popular"],
+    "cover": "../assets/covers/shows/DemonSlayer.png",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": 26,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Demon%20Slayer/Season%201/"
+      },
+      {
+        "season": 2,
+        "episodes": 7,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Demon%20Slayer/Season%202/"
+      },
+      {
+        "season": 3,
+        "episodes": 11,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Demon%20Slayer/Season%203/"
+      },
+      {
+        "season": 4,
+        "episodes": 11,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Demon%20Slayer/Season%204/"
+      },
+      {
+        "season": 5,
+        "episodes": 8,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Demon%20Slayer/Season%205/"
+      }
+    ]
+  }, 
+  {
+    "name": "My Hero Academia",
+    "tags": ["Action", "Popular"],
+    "cover": "../assets/covers/shows/MHA.png",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": 13,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/My%20Hero%20Academia/Season%201/"
+      },
+      {
+        "season": 2,
+        "episodes": 25,
+        "continue": true,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/My%20Hero%20Academia/Season%202/"
+      },
+      {
+        "season": 3,
+        "episodes": 25,
+        "continue": true,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/My%20Hero%20Academia/Season%203/"
+      },
+      {
+        "season": 4,
+        "episodes": 25,
+        "continue": true,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/My%20Hero%20Academia/Season%204/"
+      },
+      {
+        "season": 5,
+        "episodes": 25,
+        "continue": true,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/My%20Hero%20Academia/Season%205/"
+      },
+      {
+        "season": 6,
+        "episodes": 25,
+        "continue": true,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/My%20Hero%20Academia/Season%206/"
+      },
+      {
+        "season": 7,
+        "episodes": 21,
+        "continue": true,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/My%20Hero%20Academia/Season%207/"
+      },
+      {
+        "season": 8,
+        "episodes": 11,
+        "continue": true,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/My%20Hero%20Academia/Season%208/"
+      }
+    ]
+  },
+  {
+    "name": "Black Clover",
+    "tags": ["Action", "Popular"],
+    "cover": "../assets/covers/shows/BlackClover.png",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": 170,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Black%20Clover/"
+      }
+    ]
+  },
+  {
+    "name": "Attack on Titan",
+    "tags": ["Action", "Popular"],
+    "cover": "../assets/covers/shows/AOT.png",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": 25,
+        "continue": true,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Attack%20on%20Titan/Season%201/"
+      },
+      {
+        "season": 2,
+        "episodes": 12,
+        "continue": true,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Attack%20on%20Titan/Season%202/"
+      },
+      {
+        "season": 3,
+        "episodes": 22,
+        "continue": true,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Attack%20on%20Titan/Season%203/"
+      },
+      {
+        "season": 4,
+        "episodes": 28,
+        "continue": true,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Attack%20on%20Titan/Season%204/"
+      }
+    ]
+  },
+  {
+    "name": "One Piece",
+    "tags": ["Action", "Popular"],
+    "cover": "../assets/covers/shows/OnePiece.png",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": 1155,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/One%20Piece/"
+      }
+    ]
+  },
+  {
+    "name": "Bleach",
+    "tags": ["Action", "Popular", "Peak", "THE BEST ANIME OF ALL TIME"],
+    "cover": "../assets/covers/shows/Bleach.png",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": 366,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Bleach/Main/"
+      }
+    ]
+  },
+  {
+    "name": "Bleach: Thousand Year Blood War",
+    "tags": ["Action", "Popular", "Peak", "Sequel"],
+    "cover": "../assets/covers/shows/TYBW.png",
+    "seasons": [
+      {
+        "season": "Part 1",
+        "episodes": 13,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Bleach/TYBW/Part%201/"
+      },
+      {
+        "season": "Part 2",
+        "episodes": 13,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Bleach/TYBW/Part%202/"
+      },
+      {
+        "season": "Part 3",
+        "episodes": 14,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Bleach/TYBW/Part%203/"
+      }
+    ]
+  },
+  {
+    "name": "Naruto",
+    "tags": ["Action", "Popular"],
+    "cover": "../assets/covers/shows/Naruto.png",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": 220,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Naruto/Main/"
+      }
+    ]
+  },
+  {
+    "name": "Naruto Shippuden",
+    "tags": ["Action", "Popular", "Sequel"],
+    "cover": "../assets/covers/shows/Shippuden.png",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": 500,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Naruto/Shipudden/"
+      }
+    ]
+  },
+  {
+    "name": "Dragon Ball",
+    "tags": ["Action", "Popular"],
+    "cover": "../assets/covers/shows/DB.png",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": 153,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Dragon%20Ball/DB/"
+      }
+    ]
+  },
+  {
+    "name": "Dragon Ball Z",
+    "tags": ["Action", "Popular", "Sequel"],
+    "cover": "../assets/covers/shows/DBZ.png",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": 291,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Dragon%20Ball/DBZ/"
+      }
+    ]
+  },
+  {
+    "name": "Dragon Ball Super",
+    "tags": ["Action", "Popular", "Sequel"],
+    "cover": "../assets/covers/shows/DBS.png",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": 131,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Dragon%20Ball/DBS/"
+      }
+    ]
+  },
+  {
+    "name": "Dragon Ball GT",
+    "tags": ["Action", "Popular", "Sequel"],
+    "cover": "../assets/covers/shows/DBGT.png",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": 64,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Dragon%20Ball/DBGT/"
+      }
+    ]
+  },
+  {
+    "name": "Dragon Ball Daima",
+    "tags": ["Action", "Popular", "Sequel"],
+    "cover": "../assets/covers/shows/DBD.png",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": 20,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Dragon%20Ball/DBD/"
+      }
+    ]
+  },
+  {
+    "name": "Gachiakuta",
+    "tags": ["Action"],
+    "cover": "../assets/covers/shows/Gachiakuta.png",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": 24,
+        "dub": true,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Gachiakuta/",
+        "names": [
+          {
+            "ep": 1,
+            "name": "The Sphere"
+          },
+          {
+            "ep": 2,
+            "name": "The Inhabited"
+          },
+          {
+            "ep": 3,
+            "name": "The Ground"
+          },
+          {
+            "ep": 4,
+            "name": "Cleaner HQ"
+          },
+          {
+            "ep": 5,
+            "name": "Raiders"
+          },
+          {
+            "ep": 6,
+            "name": "One Good Strike!!"
+          },
+          {
+            "ep": 7,
+            "name": "A Score to Settle"
+          },
+          {
+            "ep": 8,
+            "name": "Moving Forward"
+          },
+          {
+            "ep": 9,
+            "name": "The City of Graffiti"
+          },
+          {
+            "ep": 10,
+            "name": "Penta: The Desert No Man's Land"
+          },
+          {
+            "ep": 11,
+            "name": "Amo's Hospitality"
+          },
+          {
+            "ep": 12,
+            "name": "Something Like a Curse"
+          },
+          {
+            "ep": 13,
+            "name": "An Empty Gaze"
+          },
+          {
+            "ep": 14,
+            "name": "The Storm Before the Storm"
+          },
+          {
+            "ep": 15,
+            "name": "Clash!"
+          },
+          {
+            "ep": 16,
+            "name": "Gifted and Not"
+          },
+          {
+            "ep": 17,
+            "name": "Memories of a Mediocrity"
+          },
+          {
+            "ep": 18,
+            "name": "Oh Zap, Totes Legit"
+          },
+          {
+            "ep": 19,
+            "name": "Watchmen Series"
+          },
+          {
+            "ep": 20,
+            "name": "Ensign"
+          },
+          {
+            "ep": 21,
+            "name": "TIME ATTACK"
+          },
+          {
+            "ep": 22,
+            "name": "The Power of Protection"
+          },
+          {
+            "ep": 23,
+            "name": "The Man Who Will Be Stronger"
+          },
+          {
+            "ep": 24,
+            "name": "Field Trip"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fire Force",
+    "tags": ["Action", "Popular"],
+    "cover": "../assets/covers/shows/FireForce.png",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": 24,
+        "dub": true,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Fire%20Force/Season%201/",
+        "names": [
+          { "ep": 1, "name": "Shinra Kusakabe Enlists" },
+          { "ep": 2, "name": "The Heart of a Fire Soldier" },
+          { "ep": 3, "name": "The Rookie Fire Soldier Games" },
+          { "ep": 4, "name": "The Hero and the Princess" },
+          { "ep": 5, "name": "The Battle Begins" },
+          { "ep": 6, "name": "The Spark of Promise" },
+          { "ep": 7, "name": "The Investigation of the 1st Commences" },
+          { "ep": 8, "name": "Infernal Insects" },
+          { "ep": 9, "name": "The Spreading Malice" },
+          { "ep": 10, "name": "The Promise" },
+          { "ep": 11, "name": "Formation of Special Fire Force Company 8 - The Mightiest Hikeshi" },
+          { "ep": 12, "name": "Eve of Hostilities in Asakusa" },
+          { "ep": 13, "name": "The Trap is Set" },
+          { "ep": 14, "name": "For Whom The Flame Burns" },
+          { "ep": 15, "name": "The Blacksmith's Dream" },
+          { "ep": 16, "name": "We Are Family" },
+          { "ep": 17, "name": "Black and White and Gray" },
+          { "ep": 18, "name": "The Secrets of Pyrokinesis" },
+          { "ep": 19, "name": "Into the Nether" },
+          { "ep": 20, "name": "Wearing his Pride" },
+          { "ep": 21, "name": "Those Connected" },
+          { "ep": 22, "name": "A Brother's Determination" },
+          { "ep": 23, "name": "Smile" },
+          { "ep": 24, "name": "The Burning Past" }
+        ]
+      },
+      {
+        "season": 2,
+        "episodes": 24,
+        "dub": true,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Fire%20Force/Season%202/",
+        "names": [
+          { "ep": 1, "name": "A Fire Soldier's Fight" },
+          { "ep": 2, "name": "Flames of Madness" },
+          { "ep": 3, "name": "A New Flashpoint" },
+          { "ep": 4, "name": "Groping Through the Fire" },
+          { "ep": 5, "name": "Corna (Sign of the Devil)" },
+          { "ep": 6, "name": "The Time to Choose" },
+          { "ep": 7, "name": "Road to Obi" },
+          { "ep": 8, "name": "Smoldering Malevolence" },
+          { "ep": 9, "name": "The Core" },
+          { "ep": 10, "name": "The Woman in Black" },
+          { "ep": 11, "name": "Dark Hero" },
+          { "ep": 12, "name": "Shadows Cast by Divine Light" },
+          { "ep": 13, "name": "A Pair of One-Eyes" },
+          { "ep": 14, "name": "The Ashen Reaper" },
+          { "ep": 15, "name": "A Three-Way Melee" },
+          { "ep": 16, "name": "Mind Blown" },
+          { "ep": 17, "name": "Boys, Be Weak" },
+          { "ep": 18, "name": "The Holy Woman's Anguish / The Man, Assault" },
+          { "ep": 19, "name": "The Oze Family" },
+          { "ep": 20, "name": "Weapons of Destruction" },
+          { "ep": 21, "name": "Enemy Contact" },
+          { "ep": 22, "name": "Plot" },
+          { "ep": 23, "name": "Firecat" },
+          { "ep": 24, "name": "Signs of Upheaval" }
+        ]
+      },
+      {
+        "season": 3,
+        "episodes": 18,
+        "dub": true,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Fire%20Force/Season%203/",
+        "names": [
+          { "ep": 1, "name": "Indomitable Resolve" },
+          { "ep": 2, "name": "Prisoner" },
+          { "ep": 3, "name": "Incarnation of Flame" },
+          { "ep": 4, "name": "Golden Secret" },
+          { "ep": 5, "name": "Chance Meeting With an Arch-Enemy" },
+          { "ep": 6, "name": "Beyond Prayer's End" },
+          { "ep": 7, "name": "Sleeping Truth" },
+          { "ep": 8, "name": "Holy Mother of Darkness / The Knight King's Great Adventure" },
+          { "ep": 9, "name": "Holy Sword, Resurrected" },
+          { "ep": 10, "name": "Advent" },
+          { "ep": 11, "name": "The Great Kaiju Battlefront" },
+          { "ep": 12, "name": "The Madness of the Distant Past" },
+          { "ep": 13, "name": "Unaware" },
+          { "ep": 14, "name": "With the Sun at His Back" },
+          { "ep": 15, "name": "Birth" },
+          { "ep": 16, "name": "Savior" },
+          { "ep": 17, "name": "At the Center of the World" },
+          { "ep": 18, "name": "Incantation of Destruction" },
+          { "ep": 19, "name": "Those Who Fight Back" },
+          { "ep": 20, "name": "Where Hope Is" },
+          { "ep": 21, "name": "Dragon and Knight Surge Toward the Heavens" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Jujutsu Kaisen",
+    "tags": ["Action", "Popular"],
+    "cover": "../assets/covers/shows/JJK.png",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": 24,
+        "dub": true,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/JJK/Season%201/",
+        "names": [
+          { "ep": 1, "name": "Ryomen Sukuna" },
+          { "ep": 2, "name": "For Myself" },
+          { "ep": 3, "name": "Girl of Steel" },
+          { "ep": 4, "name": "Curse Womb Must Die" },
+          { "ep": 5, "name": "Curse Womb Must Die -II-" },
+          { "ep": 6, "name": "After Rain" },
+          { "ep": 7, "name": "Assault" },
+          { "ep": 8, "name": "Boredom" },
+          { "ep": 9, "name": "Small Fry and Reverse Retribution" },
+          { "ep": 10, "name": "Idle Transfiguration" },
+          { "ep": 11, "name": "Narrow-minded" },
+          { "ep": 12, "name": "To You, Someday" },
+          { "ep": 13, "name": "Tomorrow" },
+          { "ep": 14, "name": "Kyoto Sister School Exchange Event - Group Battle 0 -" },
+          { "ep": 15, "name": "Kyoto Sister School Exchange Event - Group Battle 1 -" },
+          { "ep": 16, "name": "Kyoto Sister School Exchange Event - Group Battle 2 -" },
+          { "ep": 17, "name": "Kyoto Sister School Exchange Event - Group Battle 3 -" },
+          { "ep": 18, "name": "Sage" },
+          { "ep": 19, "name": "Black Flash" },
+          { "ep": 20, "name": "Nonstandard" },
+          { "ep": 21, "name": "Jujutsu Koshien" },
+          { "ep": 22, "name": "The Origin of Blind Obedience" },
+          { "ep": 23, "name": "The Origin of Blind Obedience - 2 -" },
+          { "ep": 24, "name": "Accomplices" }
+        ]
+      },
+      {
+        "season": 2,
+        "episodes": 23,
+        "dub": true,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/JJK/Season%202/",
+        "names": [
+          { "ep": 1, "name": "Hidden Inventory" },
+          { "ep": 2, "name": "Hidden Inventory, Part 2" },
+          { "ep": 3, "name": "Hidden Inventory, Part 3" },
+          { "ep": 4, "name": "Hidden Inventory, Part 4" },
+          { "ep": 5, "name": "Premature Death" },
+          { "ep": 6, "name": "It's Like That" },
+          { "ep": 7, "name": "Evening Festival" },
+          { "ep": 8, "name": "The Shibuya Incident" },
+          { "ep": 9, "name": "Shibuya Incident – Gate, Open" },
+          { "ep": 10, "name": "Pandemonium" },
+          { "ep": 11, "name": "Seance" },
+          { "ep": 12, "name": "Dull Knife" },
+          { "ep": 13, "name": "Red Scale" },
+          { "ep": 14, "name": "Fluctuations" },
+          { "ep": 15, "name": "Fluctuations, Part 2" },
+          { "ep": 16, "name": "Thunderclap" },
+          { "ep": 17, "name": "Thunderclap, Part 2" },
+          { "ep": 18, "name": "Right and Wrong" },
+          { "ep": 19, "name": "Right and Wrong, Part 2" },
+          { "ep": 20, "name": "Right and Wrong, Part 3" },
+          { "ep": 21, "name": "Metamorphosis" },
+          { "ep": 22, "name": "Metamorphosis, Part 2" },
+          { "ep": 23, "name": "Shibuya Incident – Gate, Close" }
+        ]
+      },
+      {
+        "season": 3,
+        "episodes": 7,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/JJK/Season%203/",
+        "names": [
+          { "ep": 1, "name": "Execution" },
+          { "ep": 2, "name": "One More Time" },
+          { "ep": 3, "name": "About the Culling Game" },
+          { "ep": 4, "name": "Perfect Preparation" },
+          { "ep": 5, "name": "Fever" },
+          { "ep": 6, "name": "Cog" },
+          { "ep": 7, "name": "Tokyo Colony No. 1 - Part 1" },
+          { "ep": 8, "name": "Tokyo Colony No. 1 - Part 2" },
+          { "ep": 9, "name": "Tokyo Colony No. 1 - Part 3" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vinland Saga",
+    "tags": ["Action", "Gore", "Peak"],
+    "cover": "../assets/covers/shows/VinlandSaga.png",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": 24,
+        "dub": true,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Vinland%20Saga/Season%201/",
+        "names": [
+          { "ep": 1, "name": "Somewhere Not Here" },
+          { "ep": 2, "name": "Sword" },
+          { "ep": 3, "name": "Troll" },
+          { "ep": 4, "name": "A True Warrior" },
+          { "ep": 5, "name": "The Troll's Son" },
+          { "ep": 6, "name": "Journey's End" },
+          { "ep": 7, "name": "Normanni" },
+          { "ep": 8, "name": "Beyond the Edge of the Sea" },
+          { "ep": 9, "name": "The Battle of London Bridge" },
+          { "ep": 10, "name": "Ragnarok" },
+          { "ep": 11, "name": "A Gamble" },
+          { "ep": 12, "name": "The Land on the Far Bank" },
+          { "ep": 13, "name": "Child of a Hero" },
+          { "ep": 14, "name": "The Light of Dawn" },
+          { "ep": 15, "name": "After Yule" },
+          { "ep": 16, "name": "History of Beasts" },
+          { "ep": 17, "name": "Servant" },
+          { "ep": 18, "name": "Out of the Cradle" },
+          { "ep": 19, "name": "United Front" },
+          { "ep": 20, "name": "Crown" },
+          { "ep": 21, "name": "Reunion" },
+          { "ep": 22, "name": "Lone Wolf" },
+          { "ep": 23, "name": "Miscalculation" },
+          { "ep": 24, "name": "End of the Prologue" }
+        ]
+      },
+      {
+        "season": 2,
+        "episodes": 24,
+        "dub": true,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Vinland%20Saga/Season%202/",
+        "names": [
+          { "ep": 1, "name": "Slave" },
+          { "ep": 2, "name": "Ketil's Farm" },
+          { "ep": 3, "name": "Snake" },
+          { "ep": 4, "name": "Awakening" },
+          { "ep": 5, "name": "The Path of Blood" },
+          { "ep": 6, "name": "We Need a Horse" },
+          { "ep": 7, "name": "Iron Fist Ketil" },
+          { "ep": 8, "name": "An Empty Man" },
+          { "ep": 9, "name": "Oath" },
+          { "ep": 10, "name": "The Cursed Head" },
+          { "ep": 11, "name": "The King of Rebellion" },
+          { "ep": 12, "name": "For Lost Love" },
+          { "ep": 13, "name": "Dark Clouds" },
+          { "ep": 14, "name": "Freedom" },
+          { "ep": 15, "name": "Storm" },
+          { "ep": 16, "name": "The Cause of War" },
+          { "ep": 17, "name": "The Road Home" },
+          { "ep": 18, "name": "The First Method" },
+          { "ep": 19, "name": "The Second Method" },
+          { "ep": 20, "name": "Pain" },
+          { "ep": 21, "name": "Courage" },
+          { "ep": 22, "name": "King Canute" },
+          { "ep": 23, "name": "Two Paths" },
+          { "ep": 24, "name": "Home" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Full Metal Alchemist: Brotherhood",
+    "tags": ["Action", "Thriller"],
+    "cover": "../assets/covers/shows/FMAB.png",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": 64,
+        "dub": true,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/FMAB/",
+        "names": [
+          { "ep": 1, "name": "Fullmetal Alchemist" },
+          { "ep": 2, "name": "The First Day" },
+          { "ep": 3, "name": "City of Heresy" },
+          { "ep": 4, "name": "An Alchemist's Anguish" },
+          { "ep": 5, "name": "Rain of Sorrow" },
+          { "ep": 6, "name": "Road of Hope" },
+          { "ep": 7, "name": "Hidden Truths" },
+          { "ep": 8, "name": "The Fifth Laboratory" },
+          { "ep": 9, "name": "Created Feelings" },
+          { "ep": 10, "name": "Separate Destinations" },
+          { "ep": 11, "name": "Miracle at Rush Valley" },
+          { "ep": 12, "name": "One Is All, All Is One" },
+          { "ep": 13, "name": "Beasts of Dublith" },
+          { "ep": 14, "name": "Those Who Lurk Underground" },
+          { "ep": 15, "name": "The Envoy from the East" },
+          { "ep": 16, "name": "Footsteps of a Comrade-in-Arms" },
+          { "ep": 17, "name": "Cold Flame" },
+          { "ep": 18, "name": "The Arrogant Palm of a Small Human" },
+          { "ep": 19, "name": "Death of the Undying" },
+          { "ep": 20, "name": "Father Before the Grave" },
+          { "ep": 21, "name": "Advance of the Fool" },
+          { "ep": 22, "name": "Backs in the Distance" },
+          { "ep": 23, "name": "Girl on the Battlefield" },
+          { "ep": 24, "name": "Inside the Belly" },
+          { "ep": 25, "name": "Doorway of Darkness" },
+          { "ep": 26, "name": "Reunion" },
+          { "ep": 27, "name": "Interlude Party" },
+          { "ep": 28, "name": "Father" },
+          { "ep": 29, "name": "Struggle of the Fool" },
+          { "ep": 30, "name": "The Ishvalan War of Extermination" },
+          { "ep": 31, "name": "The 520 Cens Promise" },
+          { "ep": 32, "name": "The Fuhrer's Son" },
+          { "ep": 33, "name": "The Northern Wall of Briggs" },
+          { "ep": 34, "name": "Ice Queen" },
+          { "ep": 35, "name": "The Shape of This Country" },
+          { "ep": 36, "name": "Family Portrait" },
+          { "ep": 37, "name": "The First Homunculus" },
+          { "ep": 38, "name": "Conflict at Baschool" },
+          { "ep": 39, "name": "Daydream" },
+          { "ep": 40, "name": "Homunculus (The Dwarf in the Flask)" },
+          { "ep": 41, "name": "The Abyss" },
+          { "ep": 42, "name": "Signs of a Counteroffensive" },
+          { "ep": 43, "name": "Bite of the Ant" },
+          { "ep": 44, "name": "Revving at Full Throttle" },
+          { "ep": 45, "name": "The Promised Day" },
+          { "ep": 46, "name": "Looming Shadows" },
+          { "ep": 47, "name": "Emissary of Darkness" },
+          { "ep": 48, "name": "The Oath in the Tunnel" },
+          { "ep": 49, "name": "Filial Affection" },
+          { "ep": 50, "name": "Upheaval in Central" },
+          { "ep": 51, "name": "The Immortal Legion" },
+          { "ep": 52, "name": "Combined Strength" },
+          { "ep": 53, "name": "Flame of Vengeance" },
+          { "ep": 54, "name": "Beyond the Inferno" },
+          { "ep": 55, "name": "The Adults' Way of Life" },
+          { "ep": 56, "name": "The Return of the Führer" },
+          { "ep": 57, "name": "Eternal Leave" },
+          { "ep": 58, "name": "Sacrifices" },
+          { "ep": 59, "name": "Lost Light" },
+          { "ep": 60, "name": "Eye of Heaven, Gateway of Earth" },
+          { "ep": 61, "name": "He Who Would Swallow God" },
+          { "ep": 62, "name": "A Fierce Counterattack" },
+          { "ep": 63, "name": "The Other Side of the Gateway" },
+          { "ep": 64, "name": "Journey's End" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Death Note",
+    "tags": ["Thriller"],
+    "cover": "../assets/covers/shows/DeathNote.png",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": 37,
+        "dub": true,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Death%20Note/",
+        "names": [
+          { "ep": 1, "name": "Rebirth" },
+          { "ep": 2, "name": "Confrontation" },
+          { "ep": 3, "name": "Dealings" },
+          { "ep": 4, "name": "Pursuit" },
+          { "ep": 5, "name": "Tactics" },
+          { "ep": 6, "name": "Unraveling" },
+          { "ep": 7, "name": "Overcast" },
+          { "ep": 8, "name": "Glare" },
+          { "ep": 9, "name": "Encounter" },
+          { "ep": 10, "name": "Doubt" },
+          { "ep": 11, "name": "Assault" },
+          { "ep": 12, "name": "Love" },
+          { "ep": 13, "name": "Confession" },
+          { "ep": 14, "name": "Friend" },
+          { "ep": 15, "name": "Wager" },
+          { "ep": 16, "name": "Decision" },
+          { "ep": 17, "name": "Execution" },
+          { "ep": 18, "name": "Ally" },
+          { "ep": 19, "name": "Matsuda" },
+          { "ep": 20, "name": "Makeshift" },
+          { "ep": 21, "name": "Performance" },
+          { "ep": 22, "name": "Guidance" },
+          { "ep": 23, "name": "Frenzy" },
+          { "ep": 24, "name": "Revival" },
+          { "ep": 25, "name": "Silence" },
+          { "ep": 26, "name": "Renewal" },
+          { "ep": 27, "name": "Abduction" },
+          { "ep": 28, "name": "Impatience" },
+          { "ep": 29, "name": "Father" },
+          { "ep": 30, "name": "Justice" },
+          { "ep": 31, "name": "Transfer" },
+          { "ep": 32, "name": "Selection" },
+          { "ep": 33, "name": "Scorn" },
+          { "ep": 34, "name": "Vigilance" },
+          { "ep": 35, "name": "Malice" },
+          { "ep": 36, "name": "1.28" },
+          { "ep": 37, "name": "New World" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Gurren Lagann",
+    "tags": ["Action", "Sad", "Mecha", "Peak"],
+    "cover": "../assets/covers/shows/GurrenLagaan.png",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": 27,
+        "dub": true,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Gurren%20Lagaan/",
+        "names": [
+          { "ep": 1, "name": "Bust Through the Heavens With Your Drill!!" },
+          { "ep": 2, "name": "I Said I'm Gonna Pilot That Thing!!" },
+          { "ep": 3, "name": "Who the Hell Do You Think You Are, Having Two Faces?!" },
+          { "ep": 4, "name": "Having Lots of Faces Doesn't Make You Great!" },
+          { "ep": 5, "name": "I Don't Get It, Not One Bit!" },
+          { "ep": 6, "name": "Sit in the Hot Tub 'Til You're Sick!!" },
+          { "ep": 7, "name": "You're Gonna Do It!!" },
+          { "ep": 8, "name": "Later, Buddy" },
+          { "ep": 9, "name": "What, Exactly, Is a Human?" },
+          { "ep": 10, "name": "Who Is This Brother?" },
+          { "ep": 11, "name": "Simon, Hands Off" },
+          { "ep": 12, "name": "Yoko, Will You Do Me a Favor?" },
+          { "ep": 13, "name": "Eat Up, Everyone!" },
+          { "ep": 14, "name": "Well Met, Everyone" },
+          { "ep": 15, "name": "I Will Head Towards Tomorrow" },
+          { "ep": 16, "name": "Let Me See the Contents of This World" },
+          { "ep": 17, "name": "You Don't Know Anything!" },
+          { "ep": 18, "name": "Tell Me the Secrets of This World" },
+          { "ep": 19, "name": "We Will Survive by Any Means Necessary" },
+          { "ep": 20, "name": "How Many Times Do I Have to Tell You This Is the Way It's Supposed to Be?!" },
+          { "ep": 21, "name": "You Are Someone Who Ought to Survive" },
+          { "ep": 22, "name": "This Is My Last Duty" },
+          { "ep": 23, "name": "Let's Go, This Is the Final Battle" },
+          { "ep": 24, "name": "I'll Never Forget This Minute, This Second" },
+          { "ep": 25, "name": "I Accept Your Last Wish" },
+          { "ep": 26, "name": "Let's Go, Buddy" },
+          { "ep": 27, "name": "The Lights in the Sky Are Stars" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Erased",
+    "tags": ["Thriller", "School"],
+    "cover": "../assets/covers/shows/Erased.png",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": 12,
+        "dub": true,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Erased/",
+        "names": [
+          { "ep": 1, "name": "Rebirth" },
+          { "ep": 2, "name": "Confrontation" },
+          { "ep": 3, "name": "Dealings" },
+          { "ep": 4, "name": "Pursuit" },
+          { "ep": 5, "name": "Tactics" },
+          { "ep": 6, "name": "Unraveling" },
+          { "ep": 7, "name": "Overcast" },
+          { "ep": 8, "name": "Glare" },
+          { "ep": 9, "name": "Encounter" },
+          { "ep": 10, "name": "Doubt" },
+          { "ep": 11, "name": "Assault" },
+          { "ep": 12, "name": "Love" },
+          { "ep": 13, "name": "Confession" },
+          { "ep": 14, "name": "Friend" },
+          { "ep": 15, "name": "Wager" },
+          { "ep": 16, "name": "Decision" },
+          { "ep": 17, "name": "Execution" },
+          { "ep": 18, "name": "Ally" },
+          { "ep": 19, "name": "Matsuda" },
+          { "ep": 20, "name": "Makeshift" },
+          { "ep": 21, "name": "Performance" },
+          { "ep": 22, "name": "Guidance" },
+          { "ep": 23, "name": "Frenzy" },
+          { "ep": 24, "name": "Revival" },
+          { "ep": 25, "name": "Silence" },
+          { "ep": 26, "name": "Renewal" },
+          { "ep": 27, "name": "Abduction" },
+          { "ep": 28, "name": "Impatience" },
+          { "ep": 29, "name": "Father" },
+          { "ep": 30, "name": "Justice" },
+          { "ep": 31, "name": "Transfer" },
+          { "ep": 32, "name": "Selection" },
+          { "ep": 33, "name": "Scorn" },
+          { "ep": 34, "name": "Vigilance" },
+          { "ep": 35, "name": "Malice" },
+          { "ep": 36, "name": "1.28" },
+          { "ep": 37, "name": "New World" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sakamoto Days",
+    "tags": ["Action", "Comedy", "Chill"],
+    "cover": "../assets/covers/shows/SakamotoDays.png",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": 22,
+        "dub": true,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Sakamoto%20Days/",
+        "names": [
+          { "ep": 1,  "name": "The Legendary Hit Man" },
+          { "ep": 2,  "name": "Vs. Son Hee and Bacho" },
+          { "ep": 3,  "name": "Welcome to Sugar Park" },
+          { "ep": 4,  "name": "Hard-Boiled" },
+          { "ep": 5,  "name": "Source of Strength" },
+          { "ep": 6,  "name": "Heisuke Mashimo" },
+          { "ep": 7,  "name": "Jurassic Bastard" },
+          { "ep": 8,  "name": "Sakamoto's vs. the Lab" },
+          { "ep": 9,  "name": "All Aboard" },
+          { "ep": 10, "name": "Bathhouse Roughhouse" },
+          { "ep": 11, "name": "Casino Battle" },
+          { "ep": 12, "name": "Overload" },
+          { "ep": 13, "name": "Just Desserts" },
+          { "ep": 14, "name": "Strong Assault" },
+          { "ep": 15, "name": "Round and Round the Tower" },
+          { "ep": 16, "name": "Slice Slice Dance" },
+          { "ep": 17, "name": "Have a Nice Flight" },
+          { "ep": 18, "name": "Kanaguri" },
+          { "ep": 19, "name": "Exam, Stage Three" },
+          { "ep": 20, "name": "Mutual Fans" },
+          { "ep": 21, "name": "Hard Mode" },
+          { "ep": 22, "name": "Each One's Mission" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Solo Leveling",
+    "tags": "Action",
+    "cover": "../assets/covers/shows/SoloLeveling.png",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": 12,
+        "dub": true,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Solo%20Leveling/Season%201/",
+        "names": [
+          { "ep": 1, "name": "I'm Used to It" },
+          { "ep": 2, "name": "If I Had One More Chance" },
+          { "ep": 3, "name": "It's Like a Game" },
+          { "ep": 4, "name": "I've Gotta Get Stronger" },
+          { "ep": 5, "name": "A Pretty Good Deal" },
+          { "ep": 6, "name": "The Real Hunt Begins" },
+          { "ep": 7, "name": "Let's See How Far I Can Go" },
+          { "ep": 8, "name": "This is Frustrating" },
+          { "ep": 9, "name": "You've Been Hiding Your Skills" },
+          { "ep": 10, "name": "What Is This, a Picnic?" },
+          { "ep": 11, "name": "A Knight Who Defends an Empty Throne?" },
+          { "ep": 12, "name": "Arise" }
+        ]
+      },
+      {
+        "season": 2,
+        "episodes": 13,
+        "dub": true,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Solo%20Leveling/Season%202/",
+        "names": [
+          { "ep": 1, "name": "You Aren't E-Rank, Are You?" },
+          { "ep": 2, "name": "I Suppose You Aren't Aware" },
+          { "ep": 3, "name": "Still a Long Way to Go" },
+          { "ep": 4, "name": "I Need to Stop Faking" },
+          { "ep": 5, "name": "This Is What We're Trained to Do" },
+          { "ep": 6, "name": "Don't Look Down on My Guys" },
+          { "ep": 7, "name": "The 10th S-Rank Hunter" },
+          { "ep": 8, "name": "Looking Up Was Tiring Me Out" },
+          { "ep": 9, "name": "It Was All Worth It" },
+          { "ep": 10, "name": "We Need a Hero" },
+          { "ep": 11, "name": "It's Going to Get Even More Intense" },
+          { "ep": 12, "name": "Are You the King of Humans?" },
+          { "ep": 13, "name": "On to the Next Target" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "The Eminence in Shadow",
+    "tags": ["Isekai", "Fantasy", "Action"],
+    "cover": "../assets/covers/shows/EminenceInShadow.png",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": 20,
+        "dub": true,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Eminence%20in%20Shadow/Season%201/",
+        "names": [
+          { "ep": 1,  "name": "The Hated Classmate" },
+          { "ep": 2,  "name": "Shadow Garden Is Born" },
+          { "ep": 3,  "name": "Fencer Ordinaire" },
+          { "ep": 4,  "name": "Sadism's Rewards" },
+          { "ep": 5,  "name": "I Am..." },
+          { "ep": 6,  "name": "Pretenders" },
+          { "ep": 7,  "name": "A Fencing Tournament of Intrigue & Bloodshed" },
+          { "ep": 8,  "name": "Dark Knight Academy Under Attack" },
+          { "ep": 9,  "name": "The End of a Lie" },
+          { "ep": 10, "name": "The Sacred Land, City of Deception" },
+          { "ep": 11, "name": "The Goddess's Trial" },
+          { "ep": 12, "name": "The Truth Within the Memories" },
+          { "ep": 13, "name": "A Bloody Showdown as an Offering to Annihilation" },
+          { "ep": 14, "name": "Your Lie, Your Wish" },
+          { "ep": 15, "name": "The Strongest Weakest Man" },
+          { "ep": 16, "name": "Unseen Intentions" },
+          { "ep": 17, "name": "Moonlight That Pierces the Darkness" },
+          { "ep": 18, "name": "Betting on a Moment" },
+          { "ep": 19, "name": "Dancing Puppet" },
+          { "ep": 20, "name": "Advent of the Demon" }
+        ]
+      },
+      {
+        "season": 2,
+        "episodes": 12,
+        "dub": true,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Eminence%20in%20Shadow/Season%202/",
+        "names": [
+          { "ep": 1,  "name": "The Lawless City" },
+          { "ep": 2,  "name": "The Haven" },
+          { "ep": 3,  "name": "The Hour of Awakening" },
+          { "ep": 4,  "name": "Mask of Falsehood" },
+          { "ep": 5,  "name": "He Who Pulls the Strings" },
+          { "ep": 6,  "name": "John Smith" },
+          { "ep": 7,  "name": "Something Precious" },
+          { "ep": 8,  "name": "The Dragon’s Tears" },
+          { "ep": 9,  "name": "The Key" },
+          { "ep": 10, "name": "Caged Bird" },
+          { "ep": 11, "name": "Determination" },
+          { "ep": 12, "name": "Highest" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Your Lie in April",
+    "highlighted": true,
+    "tags": ["Chill", "School", "Romance", "Sad", "Music"],
+    "cover": "../assets/covers/shows/YourLieinApril.png",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": 22,
+        "dub": true,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Your%20Lie%20in%20April/",
+        "names": [
+          { "ep": 1,  "name": "Monotone/Colorful" },
+          { "ep": 2,  "name": "Friend A" },
+          { "ep": 3,  "name": "Inside Spring" },
+          { "ep": 4,  "name": "Departure" },
+          { "ep": 5,  "name": "Gray Skies" },
+          { "ep": 6,  "name": "On the Way Home" },
+          { "ep": 7,  "name": "The Shadows Whisper" },
+          { "ep": 8,  "name": "Let It Ring" },
+          { "ep": 9,  "name": "Resonance" },
+          { "ep": 10, "name": "The Scenery I Shared With You" },
+          { "ep": 11, "name": "Light of Life" },
+          { "ep": 12, "name": "Twinkle Little Star" },
+          { "ep": 13, "name": "Love’s Sorrow" },
+          { "ep": 14, "name": "Footsteps" },
+          { "ep": 15, "name": "Liar" },
+          { "ep": 16, "name": "Two of a Kind" },
+          { "ep": 17, "name": "Twilight" },
+          { "ep": 18, "name": "Hearts Come Together" },
+          { "ep": 19, "name": "Goodbye, Hero" },
+          { "ep": 20, "name": "Hand in Hand" },
+          { "ep": 21, "name": "Snow" },
+          { "ep": 22, "name": "Spring Wind" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Akame ga Kill!",
+    "tags": ["Action", "Sad", "Dark", "Gore"],
+    "cover": "../assets/covers/shows/AkamegaKill.png",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": 24,
+        "dub": true,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Akame%20ga%20Kill/",
+        "names": [
+          { "ep": 1,  "name": "Kill the Darkness" },
+          { "ep": 2,  "name": "Kill the Authority" },
+          { "ep": 3,  "name": "Kill Your Cares" },
+          { "ep": 4,  "name": "Kill the Imperial Arm Users" },
+          { "ep": 5,  "name": "Kill the Dream" },
+          { "ep": 6,  "name": "Kill the Absolute Justice" },
+          { "ep": 7,  "name": "Kill the Three (Part 1)" },
+          { "ep": 8,  "name": "Kill the Three (Part 2)" },
+          { "ep": 9,  "name": "Kill the Battle Fanatic" },
+          { "ep": 10, "name": "Kill the Temptation" },
+          { "ep": 11, "name": "Kill the Mad Scientist" },
+          { "ep": 12, "name": "Kill the Newcomers" },
+          { "ep": 13, "name": "Kill the Nuisances" },
+          { "ep": 14, "name": "Kill the Giant Danger Beast" },
+          { "ep": 15, "name": "Kill the Religious Organization" },
+          { "ep": 16, "name": "Kill the Puppets" },
+          { "ep": 17, "name": "Kill the Curse" },
+          { "ep": 18, "name": "Kill the Demon" },
+          { "ep": 19, "name": "Kill the Fate" },
+          { "ep": 20, "name": "Kill the Carnage" },
+          { "ep": 21, "name": "Kill the Despair" },
+          { "ep": 22, "name": "Kill the Little Sister" },
+          { "ep": 23, "name": "Kill the Emperor" },
+          { "ep": 24, "name": "Akame ga Kill!" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Undead Unluck",
+    "tags": "Action",
+    "cover": "../assets/covers/shows/UndeadUnluck.png",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": 24,
+        "dub": true,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Undead%20Unluck/",
+        "names": [
+          { "ep": 1,  "name": "Undead and Unluck" },
+          { "ep": 2,  "name": "Union" },
+          { "ep": 3,  "name": "How to Use My Unluck" },
+          { "ep": 4,  "name": "Do You Love the Change in Me?" },
+          { "ep": 5,  "name": "United We Negate" },
+          { "ep": 6,  "name": "Spoil" },
+          { "ep": 7,  "name": "Dream" },
+          { "ep": 8,  "name": "Victhor" },
+          { "ep": 9,  "name": "Return" },
+          { "ep": 10, "name": "Result" },
+          { "ep": 11, "name": "Rio de Janeiro" },
+          { "ep": 12, "name": "Activate" },
+          { "ep": 13, "name": "Tatiana" },
+          { "ep": 14, "name": "Crimson Bullet" },
+          { "ep": 15, "name": "Under" },
+          { "ep": 16, "name": "Revolution" },
+          { "ep": 17, "name": "Outsmart" },
+          { "ep": 18, "name": "Cry for the Moon" },
+          { "ep": 19, "name": "Undead + Unluck" },
+          { "ep": 20, "name": "Anno Un" },
+          { "ep": 21, "name": "Memento Mori" },
+          { "ep": 22, "name": "Profile" },
+          { "ep": 23, "name": "A Story I Won't See Coming" },
+          { "ep": 24, "name": "To You, From Me" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mashle: Magic and Muscles",
+    "tags": ["Action", "School", "Fantasy"],
+    "cover": "../assets/covers/shows/Mashle.png",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": 12,
+        "dub": true,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Mashle/Season%201/",
+        "names": [
+          { "ep": 1, "name": "Mash Burnedead and the Body of the Gods" },
+          { "ep": 2, "name": "Mash Burnedead and the Mysterious Maze" },
+          { "ep": 3, "name": "Mash Burnedead and the Baleful Bully" },
+          { "ep": 4, "name": "Mash Burnedead and the Challenging Magic User" },
+          { "ep": 5, "name": "Mash Burnedead and the Unpopular Classmate" },
+          { "ep": 6, "name": "Mash Burnedead and the Magic of Iron" },
+          { "ep": 7, "name": "Mash Burnedead and the Puppet Master" },
+          { "ep": 8, "name": "Mash Burnedead and the Wolves of Magic" },
+          { "ep": 9, "name": "Mash Burnedead and the Accelerated Battle" },
+          { "ep": 10, "name": "Mash Burnedead and the Divine Visionary" },
+          { "ep": 11, "name": "Mash Burnedead and the Survival of the Fittest" },
+          { "ep": 12, "name": "Mash Burnedead and the Magic Mirror" }
+        ]
+      },
+      {
+        "season": 2,
+        "episodes": 12,
+        "dub": true,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Mashle/Season%202/",
+        "names": [
+          { "ep": 1, "name": "Mash Burnedead and the Divine Visionaries" },
+          { "ep": 2, "name": "Mash Burnedead and the Home Visit" },
+          { "ep": 3, "name": "Rayne Ames and God's Gift" },
+          { "ep": 4, "name": "Mash Burnedead and the Brawny Balloon" },
+          { "ep": 5, "name": "Finn Ames and the Friend" },
+          { "ep": 6, "name": "Mash Burnedead and You Look, You Lose Your Life" },
+          { "ep": 7, "name": "Mash Burnedead and the Magical Maestro" },
+          { "ep": 8, "name": "Mash Burnedead and the Tall Tower" },
+          { "ep": 9, "name": "Wahlberg Baigan and the Magic of Darkness" },
+          { "ep": 10, "name": "Wahlberg Baigan and the Greatest Danger" },
+          { "ep": 11, "name": "Mash Burnedead and the Origin of the Greatest Magic User" },
+          { "ep": 12, "name": "Mash Burnedead and His Good Friends" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Horimiya",
+    "tags": ["Romance", "Comedy", "School", "Peak"],
+    "cover": "../assets/covers/shows/Horimiya.png",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": 13,
+        "dub": true,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Horimiya/Season%201/",
+        "names": [
+          { "ep": 1,  "name": "A Tiny Happenstance" },
+          { "ep": 2,  "name": "You Wear More Than One Face" },
+          { "ep": 3,  "name": "That's Why It's Okay" },
+          { "ep": 4,  "name": "Everybody Loves Somebody" },
+          { "ep": 5,  "name": "I Can't Say It Out Loud" },
+          { "ep": 6,  "name": "This Summer's Going to Be a Hot One" },
+          { "ep": 7,  "name": "You're Here, I'm Here" },
+          { "ep": 8,  "name": "The Truth Deception Reveals" },
+          { "ep": 9,  "name": "It's Hard, but Not Impossible" },
+          { "ep": 10, "name": "Until the Snow Melts" },
+          { "ep": 11, "name": "It May Seem Like Hate" },
+          { "ep": 12, "name": "Hitherto, and Forevermore" },
+          { "ep": 13, "name": "I Would Gift You the Sky" }
+        ]
+      },
+      {
+        "season": 2,
+        "episodes": 13,
+        "dub": true,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Horimiya/Season%202/",
+        "names": [
+          { "ep": 1,  "name": "Class Trip" },
+          { "ep": 2,  "name": "Cooking Class" },
+          { "ep": 3,  "name": "Sports Day" },
+          { "ep": 4,  "name": "Hori Kotatsu" },
+          { "ep": 5,  "name": "Iura" },
+          { "ep": 6,  "name": "Sleepover" },
+          { "ep": 7,  "name": "Friends" },
+          { "ep": 8,  "name": "Yanagi-kun" },
+          { "ep": 9,  "name": "Teacher" },
+          { "ep": 10, "name": "Jealousy" },
+          { "ep": 11, "name": "Chocolate" },
+          { "ep": 12, "name": "Hori's House" },
+          { "ep": 13, "name": "Graduation" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Frieren: Beyond Journey's End",
+    "tags": ["Action", "Chill", "Fantasy"],
+    "cover": "../assets/covers/shows/Frieren.png",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": 28,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Frieren/Season%201/",
+        "names": [
+          { "ep": 1,  "name": "The Journey’s End" },
+          { "ep": 2,  "name": "It Didn't Have to Be Magic…" },
+          { "ep": 3,  "name": "Killing Magic" },
+          { "ep": 4,  "name": "The Land Where Souls Rest" },
+          { "ep": 5,  "name": "Phantoms of the Dead" },
+          { "ep": 6,  "name": "The Hero of the Village" },
+          { "ep": 7,  "name": "Like a Fairy Tale" },
+          { "ep": 8,  "name": "Frieren the Slayer" },
+          { "ep": 9,  "name": "Aura the Guillotine" },
+          { "ep": 10, "name": "A Powerful Mage" },
+          { "ep": 11, "name": "Winter in the Northern Lands" },
+          { "ep": 12, "name": "A Real Hero" },
+          { "ep": 13, "name": "Aversion to One’s Own Kind" },
+          { "ep": 14, "name": "Privilege of the Young" },
+          { "ep": 15, "name": "Smells Like Trouble" },
+          { "ep": 16, "name": "Long‑Lived Friends" },
+          { "ep": 17, "name": "Take Care" },
+          { "ep": 18, "name": "First‑Class Mage Exam" },
+          { "ep": 19, "name": "Well‑Laid Plans" },
+          { "ep": 20, "name": "Necessary Killing" },
+          { "ep": 21, "name": "The World of Magic" },
+          { "ep": 22, "name": "Future Enemies" },
+          { "ep": 23, "name": "Conquering the Labyrinth" },
+          { "ep": 24, "name": "Perfect Replicas" },
+          { "ep": 25, "name": "A Fatal Vulnerability" },
+          { "ep": 26, "name": "The Height of Magic" },
+          { "ep": 27, "name": "An Era of Humans" },
+          { "ep": 28, "name": "It Would Be Embarrassing When We Met Again" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mob Psycho 100",
+    "tags": ["Action", "Comedy", "School"],
+    "cover": "../assets/covers/shows/MobPsycho100.png",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": 12,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Mob%20Psycho%20100/Season%201/",
+        "names": [
+          { "ep": 1, "name": "Self-Proclaimed Psychic: Arataka Reigen ~And Mob~" },
+          { "ep": 2, "name": "Doubts about Youth ~The Telepathy Club Appears~" },
+          { "ep": 3, "name": "An Invitation to a Meeting ~Simply Put, I Just Want to be Popular~" },
+          { "ep": 4, "name": "Idiots Only Event ~Kin~" },
+          { "ep": 5, "name": "Ochimusha ~Psychic Powers and Me~" },
+          { "ep": 6, "name": "Discord ~To Become One~" },
+          { "ep": 7, "name": "Exaltation ~I've Obtained Loss~" },
+          { "ep": 8, "name": "The Older Brother Bows ~Destructive Intent~" },
+          { "ep": 9, "name": "Claw ~7th Division~" },
+          { "ep": 10, "name": "The Heinous Aura ~Mastermind~" },
+          { "ep": 11, "name": "Master ~Leader~" },
+          { "ep": 12, "name": "Mob and Reigen ~A Giant Tsuchinoko Appears~" }
+        ]
+      },
+      {
+        "season": 2,
+        "episodes": 13,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Mob%20Psycho%20100/Season%202/",
+        "names": [
+          { "ep": 1, "name": "Ripped Apart ~Someone Is Watching~" },
+          { "ep": 2, "name": "Urban Legends ~Encountering Rumors~" },
+          { "ep": 3, "name": "One Danger After Another ~Degeneration~" },
+          { "ep": 4, "name": "Inside ~Evil Spirit~" },
+          { "ep": 5, "name": "Discord ~Choices~" },
+          { "ep": 6, "name": "Poor, Lonely, Whitey" },
+          { "ep": 7, "name": "Cornered ~True Identity~" },
+          { "ep": 8, "name": "Even Then ~Continue Forward~" },
+          { "ep": 9, "name": "Reunion ~Guidance~" },
+          { "ep": 10, "name": "Performance ~Psychic Sensor~" },
+          { "ep": 11, "name": "Guidance ~Spiritual Guidance~" },
+          { "ep": 12, "name": "The Battle For Social Rehabilitation ~Friendship~" },
+          { "ep": 13, "name": "Boss Fight ~The Final Light~" }
+        ]
+      },
+      {
+        "season": 3,
+        "episodes": 12,
+        "url": "https://pub-e2ee947ccd7e42deaa601503e637d760.r2.dev/Mob%20Psycho%20100/Season%203/",
+        "names": [
+          { "ep": 1, "name": "Future ~Career Paths~" },
+          { "ep": 2, "name": "Yokai Hunter Amakusa Haruaki Appears! ~The Threat of a Hundred Demons!!~" },
+          { "ep": 3, "name": "Getting Carried Away ~100%~" },
+          { "ep": 4, "name": "Divine Tree 1 ~The Founder Appears~" },
+          { "ep": 5, "name": "Divine Tree 2 ~Peace~" },
+          { "ep": 6, "name": "Divine Tree 3 ~Dimple Is~" },
+          { "ep": 7, "name": "Transmission 1 ~Winter Break~" },
+          { "ep": 8, "name": "Transmission 2 ~Encountering the Unknown~" },
+          { "ep": 9, "name": "Mob 1 ~Moving~" },
+          { "ep": 10, "name": "Mob 2 ~Rival~" },
+          { "ep": 11, "name": "Mob 3 ~Trauma~" },
+          { "ep": 12, "name": "Confession ~The Future~" }
+        ]
+      }
+    ]
+  }
+]
