@@ -1,5 +1,6 @@
-const DISCORD_WEBHOOK = "https://discord.com/api/webhooks/1486107482026938580/l62LKSzb8f1bzKMZ1JJKsTnNaVxzQcV96y7C0TJziP3ZpFMolr6EsPJ_z9QjVhgbGjf-";
-const ZEPHWARE_URL = "../index.html";
+const webhook = "https://discord.com/api/webhooks/1486107482026938580/l62LKSzb8f1bzKMZ1JJKsTnNaVxzQcV96y7C0TJziP3ZpFMolr6EsPJ_z9QjVhgbGjf-";
+const home = "../index.html";
+const base = window.location.href.replace(/\/[^\/]*$/, '/');
 
 let buttonConfigs = [];
 let activeTag = null;
@@ -624,7 +625,7 @@ function createTitleBar() {
     {
       title: 'Zephware',
       svg: '<svg viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>',
-      handler: () => { window.location.href = ZEPHWARE_URL; }
+      handler: () => { window.location.href = home; }
     },
     {
       title: 'Random',
@@ -877,7 +878,7 @@ function showReportModal() {
     };
 
     try {
-      const res = await fetch(DISCORD_WEBHOOK, {
+      const res = await fetch(webhook, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload)
@@ -958,7 +959,7 @@ function createPanel() {
 }
 
 function loadGameList() {
-  fetch('data/gamelist.json')
+  fetch(`${base}data/gamelist.json`)
     .then(response => response.json())
     .then(data => {
       buttonConfigs = data;
