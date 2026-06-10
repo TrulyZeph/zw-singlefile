@@ -1,0 +1,549 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fredoka', sans-serif;
+}
+
+:root {
+  --blue: #3b82f6;
+  --blue-dim: rgba(59, 130, 246, 0.12);
+  --blue-border: rgba(59, 130, 246, 0.35);
+  --bg: #111111;
+  --surface: #1a1a1a;
+  --surface2: #222222;
+  --border: #2a2a2a;
+  --text: #e8e8e8;
+  --text-dim: #aaaaaa;
+  --muted: #666666;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Apply Theme from Library */
+*::-webkit-scrollbar { width: 4px; height: 4px; }
+*::-webkit-scrollbar-track { background: transparent; }
+*::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+
+/* ── NAVBAR ── */
+#wz-navbar {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  height: 60px;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  padding: 0 28px;
+  z-index: 100;
+  gap: 16px;
+}
+
+#wz-logo {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--blue);
+  letter-spacing: -0.5px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  flex-shrink: 0;
+}
+#wz-logo:hover { opacity: 0.7; }
+
+#back-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text-dim);
+  font-size: 13px;
+  font-weight: 500;
+  padding: 7px 14px;
+  cursor: pointer;
+  transition: all 0.15s;
+  font-family: 'Fredoka', sans-serif;
+  flex-shrink: 0;
+}
+#back-btn:hover {
+  border-color: var(--blue);
+  color: var(--blue);
+}
+
+#wz-content-breadcrumb {
+  font-size: 13px;
+  color: var(--muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 300px;
+}
+
+#wz-settings-toggle {
+  width: 34px; height: 34px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--muted);
+  font-size: 18px;
+  cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  transition: all 0.15s;
+  flex-shrink: 0;
+}
+#wz-settings-toggle:hover { border-color: var(--blue); color: var(--blue); }
+#wz-settings-toggle.active { background: var(--blue-dim); border-color: var(--blue); color: var(--blue); }
+
+/* Player Settings Dropdown */
+.wz-dropdown {
+  position: fixed;
+  top: 68px;
+  right: 20px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 8px 0;
+  z-index: 200;
+  min-width: 240px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.6);
+  display: none;
+}
+.wz-dropdown.open { display: block; }
+
+.wz-dropdown-title {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  padding: 8px 16px 10px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 4px;
+}
+
+.wz-dropdown-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px;
+  font-size: 13px;
+  color: var(--text);
+}
+
+/* Toggle (Shared w/ Library) */
+.wz-toggle {
+  position: relative;
+  display: inline-block;
+  width: 40px; height: 22px;
+  flex-shrink: 0;
+}
+.wz-toggle input { opacity: 0; width: 0; height: 0; }
+.wz-toggle-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: var(--border);
+  border-radius: 22px;
+  transition: background 0.2s;
+}
+.wz-toggle-slider::before {
+  position: absolute;
+  content: '';
+  height: 16px; width: 16px;
+  left: 3px; bottom: 3px;
+  background: white;
+  border-radius: 50%;
+  transition: transform 0.2s;
+}
+.wz-toggle input:checked + .wz-toggle-slider { background: var(--blue); }
+.wz-toggle input:checked + .wz-toggle-slider::before { transform: translateX(18px); }
+
+/* ── MAIN LAYOUT ── */
+#watch-container {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  min-height: calc(100vh - 60px);
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ── VIDEO + INFO (Left) ── */
+#watch-main {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-right: 1px solid var(--border);
+}
+
+#video-wrapper {
+  width: 100%;
+  aspect-ratio: 16/9;
+  background: #000;
+  position: relative;
+}
+
+.video-js {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* video.js theming */
+.vjs-big-play-button {
+  border-color: var(--blue) !important;
+  background-color: rgba(0,0,0,0.6) !important;
+  border-radius: 50% !important;
+  width: 64px !important; height: 64px !important;
+  line-height: 64px !important;
+  top: 50% !important; left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  margin: 0 !important;
+}
+.vjs-big-play-button:hover { background-color: var(--blue) !important; }
+.vjs-control-bar { background: rgba(0,0,0,0.85) !important; }
+.vjs-play-progress, .vjs-volume-level { background: var(--blue) !important; }
+.vjs-load-progress { background: rgba(59,130,246,0.3) !important; }
+
+/* ── INFO PANEL ── */
+#watch-info-panel {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 22px 28px;
+  border-bottom: 1px solid var(--border);
+}
+
+#watch-info-left {
+  flex: 1;
+  min-width: 0;
+}
+
+#content-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 6px;
+  line-height: 1.2;
+}
+
+#content-meta {
+  font-size: 13px;
+  color: var(--muted);
+  margin-bottom: 10px;
+}
+
+#content-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.wz-tag {
+  padding: 3px 10px;
+  background: var(--blue-dim);
+  border: 1px solid var(--blue-border);
+  border-radius: 20px;
+  font-size: 12px;
+  color: var(--blue);
+  text-transform: capitalize;
+}
+
+#content-description {
+  font-size: 13px;
+  color: var(--text-dim);
+  line-height: 1.6;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+#content-description.expanded {
+  display: block;
+  -webkit-line-clamp: unset;
+}
+
+#desc-expand-btn {
+  background: none;
+  border: none;
+  color: var(--blue);
+  font-size: 12px;
+  font-family: 'Fredoka', sans-serif;
+  cursor: pointer;
+  padding: 4px 0 0;
+  display: none;
+}
+
+#watch-info-right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-shrink: 0;
+  min-width: 160px;
+}
+
+/* Audio Selector */
+#audio-selector,
+#episode-audio-selector {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+#audio-selector label,
+#episode-audio-selector label {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.wz-btn-group {
+  display: flex;
+  gap: 6px;
+}
+
+.wz-btn-option {
+  flex: 1;
+  padding: 7px 12px;
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text-dim);
+  font-family: 'Fredoka', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.wz-btn-option:hover { border-color: var(--blue); color: var(--blue); }
+.wz-btn-option.active { background: var(--blue); border-color: var(--blue); color: white; }
+
+/* Action Buttons */
+.wz-action-btn {
+  padding: 9px 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text-dim);
+  font-family: 'Fredoka', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s;
+  text-align: center;
+  white-space: nowrap;
+}
+.wz-action-btn:hover { border-color: var(--blue); color: var(--blue); }
+.wz-action-btn.active { background: var(--blue-dim); border-color: var(--blue); color: var(--blue); }
+.wz-action-danger { color: #f87171; border-color: rgba(239,68,68,0.3); }
+.wz-action-danger:hover { background: rgba(239,68,68,0.1); border-color: rgba(239,68,68,0.6); color: #f87171; }
+
+/* ── EPISODE PANEL (right column) ── */
+#episode-panel {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 60px);
+  position: sticky;
+  top: 60px;
+  overflow: hidden;
+}
+
+#episode-panel-header {
+  padding: 16px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex-shrink: 0;
+  background: var(--bg);
+}
+
+.wz-select {
+  width: 100%;
+  padding: 9px 12px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text);
+  font-family: 'Fredoka', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  outline: none;
+  cursor: pointer;
+  transition: border-color 0.15s;
+}
+.wz-select:hover { border-color: var(--blue); }
+.wz-select option { background: var(--bg); color: var(--text); }
+
+#episode-list {
+  flex: 1;
+  overflow-y: auto;
+  padding: 10px 8px;
+}
+
+.episode-item {
+  padding: 10px 12px;
+  border-radius: 6px;
+  margin-bottom: 2px;
+  cursor: pointer;
+  transition: background 0.12s, border-left-color 0.12s;
+  border-left: 3px solid transparent;
+}
+.episode-item:hover { background: var(--blue-dim); border-left-color: var(--blue); }
+.episode-item.active { background: var(--blue-dim); border-left-color: var(--blue); }
+
+.episode-number {
+  font-size: 11px;
+  color: var(--blue);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  margin-bottom: 3px;
+}
+
+.episode-name {
+  font-size: 13px;
+  color: var(--text);
+  line-height: 1.3;
+  white-space: normal;
+}
+
+/* ── UP NEXT BANNER ── */
+#up-next-banner {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.95) 0%, transparent 100%);
+  padding: 30px 24px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
+#up-next-banner.visible { opacity: 1; pointer-events: auto; }
+
+#up-next-label {
+  font-size: 12px;
+  color: var(--muted);
+  margin-bottom: 4px;
+}
+#up-next-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+#up-next-btn {
+  padding: 10px 22px;
+  background: var(--blue);
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+#up-next-btn:hover { opacity: 0.85; }
+
+#up-next-skip {
+  padding: 8px 14px;
+  background: none;
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 6px;
+  color: white;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 13px;
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+#up-next-skip:hover { background: rgba(255,255,255,0.1); }
+
+/* ── MOBILE ── */
+@media (max-width: 1024px) {
+  #watch-container {
+    grid-template-columns: 1fr;
+    margin-top: 60px;
+  }
+
+  #watch-main {
+    border-right: none;
+  }
+
+  #episode-panel {
+    position: static;
+    height: auto;
+    max-height: 450px;
+    border-top: 1px solid var(--border);
+    display: flex !important;
+  }
+
+  #episode-panel[style*="display:none"] {
+    display: none !important;
+  }
+}
+
+@media (max-width: 768px) {
+  #wz-navbar { padding: 0 14px; gap: 10px; }
+  #wz-logo { font-size: 18px; }
+  #wz-content-breadcrumb { display: none; }
+
+  #watch-info-panel {
+    flex-direction: column;
+    padding: 16px;
+    gap: 14px;
+  }
+
+  #watch-info-right {
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: unset;
+    width: 100%;
+    align-items: center;
+  }
+
+  #audio-selector { flex-direction: row; align-items: center; gap: 10px; }
+  #audio-selector label { white-space: nowrap; }
+
+  #content-title { font-size: 19px; }
+
+  #episode-panel { max-height: 380px; }
+
+  #episode-panel-header { padding: 12px; }
+
+  .wz-dropdown { right: 10px; min-width: 210px; }
+}
+
+@media (max-width: 480px) {
+  #wz-navbar { height: 52px; }
+  #watch-container { margin-top: 52px; }
+
+  #back-btn { padding: 6px 10px; font-size: 12px; }
+  #wz-settings-toggle { width: 30px; height: 30px; font-size: 16px; }
+
+  #watch-info-panel { padding: 12px; }
+  #content-title { font-size: 17px; }
+
+  #watch-info-right {
+    gap: 8px;
+  }
+
+  .wz-action-btn { font-size: 12px; padding: 8px 12px; }
+
+  #episode-panel { max-height: 320px; }
+}
