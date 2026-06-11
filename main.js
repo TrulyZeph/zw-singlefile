@@ -57,8 +57,6 @@ const themes = {
   }
 };
 
-const base = window.location.href.replace(/\/[^\/]*$/, '/');
-
 let settings = {
   defaultOption: 'games',
   theme: 'blue'
@@ -126,12 +124,12 @@ function getNewsPages() {
   return [
   {
     title: "What's New?",
-    desc: "v1.12.0 : Week of June 7th, 2026",
+    desc: "v1.11.1 : Week of May 25th, 2026",
     images: [
       { src: theme.img1, alt: "" }
     ],
     changes: [
-      { text: "updates concluded for summer", desc: "the 25-26 school year is pretty much done and I'm burnt out due to severely underestimating how long the library update would take. I'll still be doing some updates in the summer if you want to check it out but we're pretty much going on break. Check out Zephware next year though, theres going to be a lot of cool new stuff and it's going to be better than ever before." }
+      { text: "Library Update is Here! (Sports & 1000+ New Animes)", desc: "The long-awaited library update has dropped! Shows, movies, and manga have been delayed a day or two. Some animes may be missing due to an NSFW filter. If you believe an anime is missing, please make a suggestion. Do note that with this new update, video loading may be slow at first but as more people start watching, the server will improve and load faster." }
     ]
   },
   {
@@ -193,23 +191,26 @@ document.querySelectorAll('.theme-option').forEach(opt => {
 
 goButton.addEventListener('click', () => {
   const val = select.value.toLowerCase();
-  
+  const _base = 'https://cdn.jsdelivr.net/gh/TrulyZeph/zw-singlefile@main/';
+
   if (val === 'webtools') {
-    showInstructionsOverlay('webtools/webtools.min.js');
+    showInstructionsOverlay(_base + 'webtools/webtools.min.js');
     return;
   }
 
   if (val === 'messages') {
-    showInstructionsOverlay('bridge.js');
+    showInstructionsOverlay(_base + 'bridge.js');
     return;
   }
 
   if (val === 'games' || val === 'library') {
-    window.location.href = `${base}/${val}/index.svg`;
+    window.location.href = _base + val + '/index.svg';
+    return;
   }
 
-    if (val === 'connect' || val === 'music') {
-    window.location.href = `${base}/${val}.svg`;
+  if (val === 'connect' || val === 'music') {
+    window.location.href = _base + val + '.svg';
+    return;
   }
 });
 
@@ -366,7 +367,7 @@ function showInstructionsOverlay(customLink) {
   overlay.style.display = 'flex';
 
   if (customLink) {
-    fetch(customLink)
+    fetch(_base + customLink)
       .then(res => res.text())
       .then(code => {
         toCopy.textContent = code;
