@@ -202,7 +202,7 @@
   function openMovieModal(movie) {
     const movieId = getItemId(movie);
     const progress = watchProgress[movieId];
-    let url = `${base}/watch.html?id=` + movieId;
+    let url = `${base}/watch.svg?id=` + movieId;
     if (progress && progress.isDub) url += '&audio=dub';
     window.location.href = url;
   }
@@ -210,7 +210,7 @@
   function openShowModal(show) {
     const showId = getItemId(show);
     const progress = watchProgress[showId];
-    let url = `${base}/watch.html?id=` + showId;
+    let url = `${base}/watch.svg?id=` + showId;
     if (progress && progress.season) {
       url += '&season=' + encodeURIComponent(progress.season);
       if (progress.episode) url += '&episode=' + progress.episode;

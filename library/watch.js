@@ -728,7 +728,7 @@
     const contentId = params.id;
 
     if (!contentId) {
-      window.location.href = 'index.html';
+      window.location.href = 'index.svg';
       return;
     }
 
