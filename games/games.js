@@ -531,8 +531,24 @@ async function openGame(config, fromRoute = false) {
   document.body.appendChild(backBar);
 
   let url = config.url;
+  const isHtmlFile = url.endsWith('.html');
   const isGameBuild = config.type === 'gameBuild' ||
-    (/gameBuilds|github|raw\.githubusercontent\.com/i.test(url) && !url.endsWith('.swf'));
+    (/gameBuilds|github|raw\.githubusercontent\.com/i.test(url) && !url.endsWith('.swf') && !isHtmlFile);
+
+  if (isHtmlFile) {
+    try {
+      const resp = await fetch(url + '?t=' + Date.now());
+      if (!resp.ok) throw new Error('Failed to fetch HTML game');
+      const html = await resp.text();
+      const blob = new Blob([html], { type: 'text/html' });
+      url = URL.createObjectURL(blob);
+    } catch(e) {
+      console.error('Failed to load HTML game:', e);
+      alert('Failed to load game. Please try again.');
+      closeGame();
+      return;
+    }
+  }
 
   if (isGameBuild) {
     let savedLS = {};
